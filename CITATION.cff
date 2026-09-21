@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it using the metadata below."
+title: "Code and Data for Complementarity Test with Unmeasured, Permanently Inaccessible Path Markers"
+type: dataset
+authors:
+  - family-names: Gauthier
+    given-names: Paul
+    orcid: "https://orcid.org/0009-0009-5034-5860"
+    email: paul@paulg.com
+    affiliation: "Independent Researcher, Santa Barbara, California, USA"
+  - family-names: Patel
+    given-names: Sahil
+    orcid: "https://orcid.org/0000-0002-8780-871X"
+    affiliation: "Department of Electrical and Computer Engineering, University of California, Santa Barbara, California 93106, USA"
+  - family-names: Doan
+    given-names: Sean
+    orcid: "https://orcid.org/0000-0001-5914-1519"
+    affiliation: "Department of Physics, University of California, Santa Barbara, California 93106, USA"
+  - family-names: Moody
+    given-names: Galan
+    orcid: "https://orcid.org/0000-0002-6265-2034"
+    affiliation: "Department of Electrical and Computer Engineering, University of California, Santa Barbara, California 93106, USA"
+repository-code: "https://github.com/paul-gauthier/complementarity"
+doi: "10.5281/zenodo.22262324"
+version: "v1"
+license-url: "https://github.com/paul-gauthier/complementarity/blob/v1/LICENSE.md"
+abstract: >-
+  Code, immutable experimental and archived environmental inputs, executable
+  analysis, and reviewed reference products for a complementarity experiment
+  with permanently inaccessible path markers.
+keywords:
+  - complementarity
+  - quantum eraser
+  - interferometry
+  - reproducible research
+date-released: "2026-09-21"

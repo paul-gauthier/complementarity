@@ -1,0 +1,55 @@
+{
+  "derived": {
+    "dust_launch_to_visual_ratio": 0.5833090192838966,
+    "dust_opacity_gpc_inverse": 0.008482854646813117,
+    "dust_optical_depth": 0.00857260259443163,
+    "dust_transmission": 0.9914640373884321,
+    "dust_visual_opacity_gpc_inverse": 0.014542642692593977,
+    "electron_optical_depth": 0.0008325684708216443,
+    "electron_transmission": 0.9991677780181424,
+    "galaxy_cross_section_mpc2": 0.0006915603407597567,
+    "galaxy_number_density_mpc3": 0.006123640480000001,
+    "galaxy_optical_depth": 0.006870952254414001,
+    "galaxy_radius_mpc": 0.014836795252225518,
+    "galaxy_transmission": 0.9931525987678403,
+    "gray_dust_optical_depth": 0.01376319272280768,
+    "gray_total_optical_depth": 0.021466713448043327,
+    "gray_transmission": 0.9787620565409704,
+    "nominal_optical_depth": 0.016276123319667275,
+    "nominal_transmission": 0.9838556170661882
+  },
+  "inputs": {
+    "dust_normalization_distance_gpc": 1.9,
+    "dust_r_v": 3.1,
+    "dust_visual_extinction_mag": 0.03,
+    "electron_density_cm3": 2.5e-07,
+    "galaxy_number_density_h3_mpc3": 0.02,
+    "galaxy_radius_hinv_pc": 10000.0,
+    "hubble_constant_km_s_mpc": 67.4,
+    "idler_wavelength_nm": 810.0,
+    "omega_lambda": 0.685,
+    "omega_m": 0.315,
+    "thomson_cross_section_cm2": 6.652e-25
+  },
+  "integrals": {
+    "density_kernel": 0.3647676870638255,
+    "dust_kernel": 0.22720080169379972,
+    "effective_density_path_gpc": 1.6224718324011727
+  },
+  "model": {
+    "cosmology": "flat_lambda_cdm_future_a_1_to_infinity",
+    "dust": "cardelli_rv_with_near_ir_power_law_extension",
+    "dust_normalization": "visual_opacity_converted_to_launch_wavelength_with_ccm",
+    "dust_wavelength_factor": "ccm_extinction_relative_to_launch_wavelength",
+    "electron": "constant_comoving_density_thomson_scattering",
+    "galaxy": "craig_1996_opaque_fixed_radius_constant_comoving_population",
+    "gray_dust": "same_launch_opacity_with_wavelength_factor_fixed_at_one"
+  },
+  "references": {
+    "cosmology": "Planck Collaboration, Planck 2018 results. VI. Cosmological parameters, Astron. Astrophys. 641, A6 (2020), doi:10.1051/0004-6361/201833910; corrigendum, Astron. Astrophys. 652, C4 (2021)",
+    "dust_extinction_curve": "Cardelli, Clayton, and Mathis, The Relationship between Infrared, Optical, and Ultraviolet Extinction (1989), doi:10.1086/167900",
+    "dust_normalization": "Menard, Scranton, Fukugita, and Richards, Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening (2010), doi:10.1111/j.1365-2966.2010.16486.x",
+    "galaxy_interception": "Craig, Observation of the Final Boundary Condition: Extragalactic Background Radiation and the Time Symmetry of the Universe (1996), doi:10.1006/aphy.1996.0119"
+  },
+  "schema_version": 1
+}

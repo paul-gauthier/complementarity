@@ -1,0 +1,2194 @@
+{
+  "coverage": {
+    "calibration_increases_cutoff": false,
+    "confidence": 0.95,
+    "empirical_worst_case_cutoff": 2.5186358331433745,
+    "empirical_worst_case_cutoff_scenario": {
+      "eta": 1.0,
+      "phase_configuration": "alternating_covariance_axes"
+    },
+    "eta_grid": [
+      0.0,
+      0.01,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "method": "parametric_gaussian_fixed_covariance_grid",
+    "minimum_nominal_coverage": 0.9554,
+    "minimum_nominal_coverage_scenario": {
+      "coverage_exact_95ci": [
+        0.9493065691151551,
+        0.9609542548839247
+      ],
+      "eta": 1.0,
+      "phase_configuration": "alternating_covariance_axes"
+    },
+    "n_scenarios": 104,
+    "nominal_cutoff": 2.705543454095413,
+    "phase_configurations": [
+      {
+        "kind": "observed",
+        "name": "observed_fit",
+        "phases_rad": [
+          0.29364626890293805,
+          6.213742977094199,
+          2.9757696103620748,
+          6.258968307225576,
+          2.27109681847049,
+          1.5391090024700997
+        ]
+      },
+      {
+        "kind": "axis_extreme",
+        "name": "all_covariance_major_axes",
+        "phases_rad": [
+          3.0058878257988537,
+          1.470175829805089,
+          1.8147534247685122,
+          3.3642902922874183,
+          2.407362975066611,
+          1.9405225741072347
+        ]
+      },
+      {
+        "kind": "axis_extreme",
+        "name": "all_covariance_minor_axes",
+        "phases_rad": [
+          4.57668415259375,
+          3.040972156599986,
+          3.3855497515634085,
+          4.935086619082315,
+          3.978159301861507,
+          3.511318900902131
+        ]
+      },
+      {
+        "kind": "axis_extreme",
+        "name": "alternating_covariance_axes",
+        "phases_rad": [
+          3.0058878257988537,
+          3.040972156599986,
+          1.8147534247685122,
+          4.935086619082315,
+          2.407362975066611,
+          3.511318900902131
+        ]
+      },
+      {
+        "kind": "deterministic_random",
+        "name": "deterministic_random_1",
+        "phases_rad": [
+          2.9749149645561688,
+          0.24225580315491715,
+          4.199229519148864,
+          4.269739417667516,
+          0.2985775312590111,
+          0.03907412915383852
+        ]
+      },
+      {
+        "kind": "deterministic_random",
+        "name": "deterministic_random_2",
+        "phases_rad": [
+          3.7758679011435694,
+          2.519430406954191,
+          2.94189233615718,
+          5.409362760427866,
+          4.198026634786827,
+          5.355727739991117
+        ]
+      },
+      {
+        "kind": "deterministic_random",
+        "name": "deterministic_random_3",
+        "phases_rad": [
+          0.7052176785345741,
+          3.9775995598144247,
+          1.3656490717804515,
+          4.931176788585286,
+          1.5893369298299833,
+          1.7518618116779017
+        ]
+      },
+      {
+        "kind": "deterministic_random",
+        "name": "deterministic_random_4",
+        "phases_rad": [
+          2.0198448410702587,
+          5.517615327716828,
+          2.2677534724511026,
+          5.2895815552473175,
+          4.911161389356502,
+          1.1315419057779479
+        ]
+      }
+    ],
+    "recommended_cutoff": 2.705543454095413,
+    "scenarios": [
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11396468677227944,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11409042274965878,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11393663150657965,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11411174349256276,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11445938850273187,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11422540645248053,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11344289309733467,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.0,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11439635598802331,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11479549948479448,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.11420415596217533,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11449442549624782,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11440317374285007,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11376576991166501,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11486041072386233,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.11440007984262393,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.01,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11442319726880135,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1160917918571788,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11625531415301597,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11610398309728676,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11560290747479833,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.115733982322358,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1160921638036723,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.11597743139141298,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.025,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.11599705176633597,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12248791641651639,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12264945803990977,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12317328205004487,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12220955445333448,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12207099797305457,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12233442402279639,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12235204978644913,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.05,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.12324125572223192,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.132745224922559,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.13126197705861836,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1336444769794729,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.133245672013726,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.13350605346267122,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.13247101060501604,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.13299968525851977,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.075,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.13279297109408708,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.14677863918454054,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0012160650047554622,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1459443617971642,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0010856406557335774,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.14734692639398764,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 8.357633370192907e-05,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.14642463452062834,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 2.5186845602931385e-05,
+        "eta": 0.1,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.14572238758032682,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.0,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.14686334608661772,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.00047297775950938536,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1457753087020581,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.001749371445657566,
+        "eta": 0.1,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.14630624475078763,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.09208894695547976,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1636361464608309,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9985558172041331,
+          0.9999515544728818
+        ],
+        "coverage_nominal": 0.9996,
+        "covered_nominal": 4998,
+        "empirical_cutoff": 0.11760706759734862,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1616492743414746,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9985558172041331,
+          0.9999515544728818
+        ],
+        "coverage_nominal": 0.9996,
+        "covered_nominal": 4998,
+        "empirical_cutoff": 0.08618740945479797,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1639935527121502,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.998886180619666,
+          0.999994936451223
+        ],
+        "coverage_nominal": 0.9998,
+        "covered_nominal": 4999,
+        "empirical_cutoff": 0.1052304492246483,
+        "eta": 0.125,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.16287725567419079,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.998886180619666,
+          0.999994936451223
+        ],
+        "coverage_nominal": 0.9998,
+        "covered_nominal": 4999,
+        "empirical_cutoff": 0.13313580179009676,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.16239191845974196,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.09302705449807025,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.16308804166530014,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9992624961988918,
+          1.0
+        ],
+        "coverage_nominal": 1.0,
+        "covered_nominal": 5000,
+        "empirical_cutoff": 0.12031441014779709,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.16295654851597172,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9985558172041331,
+          0.9999515544728818
+        ],
+        "coverage_nominal": 0.9996,
+        "covered_nominal": 4998,
+        "empirical_cutoff": 0.10557341646042939,
+        "eta": 0.125,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.16168999743201531,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9976678894088544,
+          0.9996752255252221
+        ],
+        "coverage_nominal": 0.999,
+        "covered_nominal": 4995,
+        "empirical_cutoff": 0.32368383733011097,
+        "eta": 0.15,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.18101688438038682,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9973899486891497,
+          0.9995594978654733
+        ],
+        "coverage_nominal": 0.9988,
+        "covered_nominal": 4994,
+        "empirical_cutoff": 0.4055265377448156,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.17912245142305327,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9985558172041331,
+          0.9999515544728818
+        ],
+        "coverage_nominal": 0.9996,
+        "covered_nominal": 4998,
+        "empirical_cutoff": 0.28972379798589465,
+        "eta": 0.15,
+        "fit_iterations_max": 7,
+        "mean_eta_hat": 0.1826485543229253,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.998247556396604,
+          0.9998762484795307
+        ],
+        "coverage_nominal": 0.9994,
+        "covered_nominal": 4997,
+        "empirical_cutoff": 0.31551512265683346,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.18193956977476586,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.998886180619666,
+          0.999994936451223
+        ],
+        "coverage_nominal": 0.9998,
+        "covered_nominal": 4999,
+        "empirical_cutoff": 0.300540705419551,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.18215683047887532,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9968498092369407,
+          0.9993089884473824
+        ],
+        "coverage_nominal": 0.9984,
+        "covered_nominal": 4992,
+        "empirical_cutoff": 0.2774552255919467,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1815051699398037,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9973899486891497,
+          0.9995594978654733
+        ],
+        "coverage_nominal": 0.9988,
+        "covered_nominal": 4994,
+        "empirical_cutoff": 0.41608566816677106,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.18045136067274684,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.998247556396604,
+          0.9998762484795307
+        ],
+        "coverage_nominal": 0.9994,
+        "covered_nominal": 4997,
+        "empirical_cutoff": 0.3346883363399247,
+        "eta": 0.15,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.1811909528435886,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9926278040832289,
+          0.9967617282306545
+        ],
+        "coverage_nominal": 0.995,
+        "covered_nominal": 4975,
+        "empirical_cutoff": 0.8136587664613,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22211150762121865,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9898143661744159,
+          0.9947845201472822
+        ],
+        "coverage_nominal": 0.9926,
+        "covered_nominal": 4963,
+        "empirical_cutoff": 0.8584432014907506,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22140114651322956,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9928663468036764,
+          0.9969222009574026
+        ],
+        "coverage_nominal": 0.9952,
+        "covered_nominal": 4976,
+        "empirical_cutoff": 0.6718619809799113,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22443562000105913,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9886624298805431,
+          0.9939395040019603
+        ],
+        "coverage_nominal": 0.9916,
+        "covered_nominal": 4958,
+        "empirical_cutoff": 0.8694131590653926,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22275048587753463,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9919165367013648,
+          0.9962757107338437
+        ],
+        "coverage_nominal": 0.9944,
+        "covered_nominal": 4972,
+        "empirical_cutoff": 0.7465632471874071,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.2230822430401221,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9909770202178589,
+          0.9956184067742183
+        ],
+        "coverage_nominal": 0.9936,
+        "covered_nominal": 4968,
+        "empirical_cutoff": 0.7471652098435877,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22314373823408132,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9919165367013648,
+          0.9962757107338437
+        ],
+        "coverage_nominal": 0.9944,
+        "covered_nominal": 4972,
+        "empirical_cutoff": 0.8030306296892951,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.2218841878575443,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9938290523444677,
+          0.9975550361884891
+        ],
+        "coverage_nominal": 0.996,
+        "covered_nominal": 4980,
+        "empirical_cutoff": 0.7785054545508097,
+        "eta": 0.2,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.22164480093527517,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9779207148863369,
+          0.9855016654445259
+        ],
+        "coverage_nominal": 0.982,
+        "covered_nominal": 4910,
+        "empirical_cutoff": 1.5242188928174034,
+        "eta": 0.3,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.3145598663993458,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9794628454036028,
+          0.9867570689606285
+        ],
+        "coverage_nominal": 0.9834,
+        "covered_nominal": 4917,
+        "empirical_cutoff": 1.5986445295220806,
+        "eta": 0.3,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.3141229176920584,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9810114072664338,
+          0.9880059306839765
+        ],
+        "coverage_nominal": 0.9848,
+        "covered_nominal": 4924,
+        "empirical_cutoff": 1.2571506830269197,
+        "eta": 0.3,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.315946119606287,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9748529988468602,
+          0.9829740574192918
+        ],
+        "coverage_nominal": 0.9792,
+        "covered_nominal": 4896,
+        "empirical_cutoff": 1.6337676496187097,
+        "eta": 0.3,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.31458983512084643,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9763842968842739,
+          0.9842404589895336
+        ],
+        "coverage_nominal": 0.9806,
+        "covered_nominal": 4903,
+        "empirical_cutoff": 1.4657646565071207,
+        "eta": 0.3,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.3149833018458515,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.977261587610282,
+          0.984961820901098
+        ],
+        "coverage_nominal": 0.9814,
+        "covered_nominal": 4907,
+        "empirical_cutoff": 1.4906336657573256,
+        "eta": 0.3,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.31400993807544364,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9805682567363969,
+          0.9876498300129272
+        ],
+        "coverage_nominal": 0.9844,
+        "covered_nominal": 4922,
+        "empirical_cutoff": 1.4849162218366208,
+        "eta": 0.3,
+        "fit_iterations_max": 6,
+        "mean_eta_hat": 0.3133356359898727,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9726733463499134,
+          0.9811568888390648
+        ],
+        "coverage_nominal": 0.9772,
+        "covered_nominal": 4886,
+        "empirical_cutoff": 1.6189216541660318,
+        "eta": 0.3,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.3129995975293775,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9627402775647343,
+          0.9727035074632482
+        ],
+        "coverage_nominal": 0.968,
+        "covered_nominal": 4840,
+        "empirical_cutoff": 2.1029897698327615,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5081836679782776,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9629548824182061,
+          0.9728886212940611
+        ],
+        "coverage_nominal": 0.9682,
+        "covered_nominal": 4841,
+        "empirical_cutoff": 2.0253811025931077,
+        "eta": 0.5,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.5078084011241099,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.970501959075642,
+          0.9793313518187213
+        ],
+        "coverage_nominal": 0.9752,
+        "covered_nominal": 4876,
+        "empirical_cutoff": 1.8455348875315312,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5088594434711544,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9700685861916363,
+          0.9789653292582026
+        ],
+        "coverage_nominal": 0.9748,
+        "covered_nominal": 4874,
+        "empirical_cutoff": 1.7473650070626228,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5096807112302058,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.968770153320849,
+          0.9778655570225527
+        ],
+        "coverage_nominal": 0.9736,
+        "covered_nominal": 4868,
+        "empirical_cutoff": 1.9078432619095382,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5090954696236442,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9638138156663985,
+          0.9736285581902684
+        ],
+        "coverage_nominal": 0.969,
+        "covered_nominal": 4845,
+        "empirical_cutoff": 2.021606109875129,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5083575412575998,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9674741211826025,
+          0.9767633582670937
+        ],
+        "coverage_nominal": 0.9724,
+        "covered_nominal": 4862,
+        "empirical_cutoff": 1.9599804872597213,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5085219126809705,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9668269579111375,
+          0.9762113972741805
+        ],
+        "coverage_nominal": 0.9718,
+        "covered_nominal": 4859,
+        "empirical_cutoff": 1.9563919979164828,
+        "eta": 0.5,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.5081619870220214,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9588856056284806,
+          0.9693631730155026
+        ],
+        "coverage_nominal": 0.9644,
+        "covered_nominal": 4822,
+        "empirical_cutoff": 2.2966706911119648,
+        "eta": 0.75,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.7559028493588658,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9563237584435118,
+          0.9671282855905038
+        ],
+        "coverage_nominal": 0.962,
+        "covered_nominal": 4810,
+        "empirical_cutoff": 2.358251605003124,
+        "eta": 0.75,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.7549988323333086,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9561105346727955,
+          0.9669417794874028
+        ],
+        "coverage_nominal": 0.9618,
+        "covered_nominal": 4809,
+        "empirical_cutoff": 2.2287457272046476,
+        "eta": 0.75,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.7556428277435336,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9590993661674668,
+          0.9695491382425938
+        ],
+        "coverage_nominal": 0.9646,
+        "covered_nominal": 4823,
+        "empirical_cutoff": 2.164815867623753,
+        "eta": 0.75,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.7561299431162716,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9586718883622366,
+          0.9691771641733854
+        ],
+        "coverage_nominal": 0.9642,
+        "covered_nominal": 4821,
+        "empirical_cutoff": 2.155146042111726,
+        "eta": 0.75,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.7552448454484402,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9556842041601027,
+          0.9665686493930851
+        ],
+        "coverage_nominal": 0.9614,
+        "covered_nominal": 4807,
+        "empirical_cutoff": 2.324765095918922,
+        "eta": 0.75,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.7552301955850887,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9565370216166033,
+          0.9673147519997973
+        ],
+        "coverage_nominal": 0.9622,
+        "covered_nominal": 4811,
+        "empirical_cutoff": 2.3308045681129284,
+        "eta": 0.75,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.7556335035254338,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.963384245332866,
+          0.9732586943845599
+        ],
+        "coverage_nominal": 0.9686,
+        "covered_nominal": 4843,
+        "empirical_cutoff": 2.095487563084788,
+        "eta": 0.75,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.7564516184771163,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9518539047367689,
+          0.9632037560616088
+        ],
+        "coverage_nominal": 0.9578,
+        "covered_nominal": 4789,
+        "empirical_cutoff": 2.351870786129698,
+        "eta": 1.0,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.9871056349227463,
+        "phase_configuration": "observed_fit",
+        "phase_configuration_kind": "observed",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9533420817877973,
+          0.9645137191097904
+        ],
+        "coverage_nominal": 0.9592,
+        "covered_nominal": 4796,
+        "empirical_cutoff": 2.3424002499842738,
+        "eta": 1.0,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.9866531358450548,
+        "phase_configuration": "all_covariance_major_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9497308019890486,
+          0.9613294968800616
+        ],
+        "coverage_nominal": 0.9558,
+        "covered_nominal": 4779,
+        "empirical_cutoff": 2.5025920612667676,
+        "eta": 1.0,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.9871262098852814,
+        "phase_configuration": "all_covariance_minor_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9493065691151551,
+          0.9609542548839247
+        ],
+        "coverage_nominal": 0.9554,
+        "covered_nominal": 4777,
+        "empirical_cutoff": 2.5186358331433745,
+        "eta": 1.0,
+        "fit_iterations_max": 4,
+        "mean_eta_hat": 0.9864498445700934,
+        "phase_configuration": "alternating_covariance_axes",
+        "phase_configuration_kind": "axis_extreme",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9552580277593639,
+          0.9661953640651814
+        ],
+        "coverage_nominal": 0.961,
+        "covered_nominal": 4805,
+        "empirical_cutoff": 2.3258577686734636,
+        "eta": 1.0,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.9873006939504391,
+        "phase_configuration": "deterministic_random_1",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9514290200230557,
+          0.962829170109256
+        ],
+        "coverage_nominal": 0.9574,
+        "covered_nominal": 4787,
+        "empirical_cutoff": 2.4064945518050447,
+        "eta": 1.0,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.9871423786763246,
+        "phase_configuration": "deterministic_random_2",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.957603939136938,
+          0.9682464778838384
+        ],
+        "coverage_nominal": 0.9632,
+        "covered_nominal": 4816,
+        "empirical_cutoff": 2.2647657508204455,
+        "eta": 1.0,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.9869610041631287,
+        "phase_configuration": "deterministic_random_3",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      },
+      {
+        "coverage_exact_95ci": [
+          0.9505796503287199,
+          0.9620795958526613
+        ],
+        "coverage_nominal": 0.9566,
+        "covered_nominal": 4783,
+        "empirical_cutoff": 2.4709482668032434,
+        "eta": 1.0,
+        "fit_iterations_max": 5,
+        "mean_eta_hat": 0.986880319256815,
+        "phase_configuration": "deterministic_random_4",
+        "phase_configuration_kind": "deterministic_random",
+        "simulations": 5000
+      }
+    ],
+    "seed": 12347,
+    "simulations_per_scenario": 5000
+  },
+  "goodness_of_fit": {
+    "exceedances": 4759,
+    "fit_iterations_max": 6,
+    "interpretation": "likelihood_ratio_common_eta_vs_dataset_specific_eta",
+    "mean_eta_hat": 0.14297805917539197,
+    "method": "parametric_gaussian_at_fitted_common_effect",
+    "observed_deviance_min": 0.7138084162237875,
+    "pvalue": 0.9518096380723855,
+    "seed": 12348,
+    "simulated_deviance_quantiles": {
+      "q05": 0.7338678980350499,
+      "q50": 2.6497027070742782,
+      "q95": 6.746117664507933
+    },
+    "simulations": 5000
+  },
+  "inputs": [
+    {
+      "covariance_cps2": [
+        [
+          22.498818526238633,
+          -0.26690956926354165
+        ],
+        [
+          -0.26690956926354165,
+          20.5805127691499
+        ]
+      ],
+      "dataset_id": "2026-03-05-13-29-15--2026-03-05-14-20-45",
+      "normalization_Rfinite_path_cps": 46.552414377338096,
+      "normalization_Rinfty_cps": 45.800854373136865,
+      "normalization_Rpm_cps": 61.2764173042936,
+      "normalization_launch_floor_Rfinite_path_cps": 93.10482875467619,
+      "normalization_launch_floor_Rinfinity_cps": 91.60170874627373,
+      "period_V": 2.058723082206515,
+      "period_sigma_V": 0.009130941735475752,
+      "phase_full_restoration_finite_path_rad": 0.06402554247010309,
+      "phase_full_restoration_launch_finite_path_rad": 6.271392599945883,
+      "phase_full_restoration_launch_infinity_rad": 6.27293420660107,
+      "phase_full_restoration_rad": 0.06600711473646308,
+      "phase_hat_rad": 0.29364626890293805,
+      "q_hat_cps": [
+        2.9814268751808353,
+        0.9430206282310379
+      ],
+      "source": "datasets/2026-03-05-13-29-15--2026-03-05-14-20-45/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.759711752502805,
+      "transmission_Tinfinity": 0.7474466750510824,
+      "transmission_atmosphere": 0.9126314,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.8448896694845209
+    },
+    {
+      "covariance_cps2": [
+        [
+          20.010937638440126,
+          0.3418117826368186
+        ],
+        [
+          0.3418117826368186,
+          23.361994954008885
+        ]
+      ],
+      "dataset_id": "2026-03-06-15-06-58--2026-03-06-16-03-22",
+      "normalization_Rfinite_path_cps": 46.15643490366651,
+      "normalization_Rinfty_cps": 45.41126774372216,
+      "normalization_Rpm_cps": 61.70792028376481,
+      "normalization_launch_floor_Rfinite_path_cps": 92.31286980733302,
+      "normalization_launch_floor_Rinfinity_cps": 90.82253548744433,
+      "period_V": 2.0515823211794535,
+      "period_sigma_V": 0.009679866318365905,
+      "phase_full_restoration_finite_path_rad": 1.1376499586572861,
+      "phase_full_restoration_launch_finite_path_rad": 1.3055558266177052,
+      "phase_full_restoration_launch_infinity_rad": 1.3028398424375587,
+      "phase_full_restoration_rad": 1.1320275770258235,
+      "phase_hat_rad": 6.213742977094199,
+      "q_hat_cps": [
+        2.214306008683005,
+        -0.16491353482342908
+      ],
+      "source": "datasets/2026-03-06-15-06-58--2026-03-06-16-03-22/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.7479823447527553,
+      "transmission_Tinfinity": 0.7359066313513364,
+      "transmission_atmosphere": 0.8821408,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.8605973411928222
+    },
+    {
+      "covariance_cps2": [
+        [
+          18.621886010505488,
+          -0.6201095977258239
+        ],
+        [
+          -0.6201095977258239,
+          20.958783295509036
+        ]
+      ],
+      "dataset_id": "2026-03-06-21-27-03--2026-03-06-22-25-50",
+      "normalization_Rfinite_path_cps": 58.46611215933104,
+      "normalization_Rinfty_cps": 57.5222128559796,
+      "normalization_Rpm_cps": 70.4010644640875,
+      "normalization_launch_floor_Rfinite_path_cps": 116.93222431866208,
+      "normalization_launch_floor_Rinfinity_cps": 115.0444257119592,
+      "period_V": 2.080816187896801,
+      "period_sigma_V": 0.008893830223491744,
+      "phase_full_restoration_finite_path_rad": 2.4118167261441874,
+      "phase_full_restoration_launch_finite_path_rad": 2.150801999528263,
+      "phase_full_restoration_launch_infinity_rad": 2.1556707051025352,
+      "phase_full_restoration_rad": 2.4191118970574568,
+      "phase_hat_rad": 2.9757696103620748,
+      "q_hat_cps": [
+        -6.015231036918468,
+        1.043559115793594
+      ],
+      "source": "datasets/2026-03-06-21-27-03--2026-03-06-22-25-50/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.8304719907914939,
+      "transmission_Tinfinity": 0.817064532956351,
+      "transmission_atmosphere": 0.8981969,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.9384259312370178
+    },
+    {
+      "covariance_cps2": [
+        [
+          15.544418155116244,
+          0.2397232389097197
+        ],
+        [
+          0.2397232389097197,
+          14.540107102901338
+        ]
+      ],
+      "dataset_id": "2026-03-08-06-52-49--2026-03-08-07-59-00",
+      "normalization_Rfinite_path_cps": 39.28091047029064,
+      "normalization_Rinfty_cps": 38.64674440966949,
+      "normalization_Rpm_cps": 48.99598634570312,
+      "normalization_launch_floor_Rfinite_path_cps": 78.56182094058128,
+      "normalization_launch_floor_Rinfinity_cps": 77.29348881933898,
+      "period_V": 2.0515408570327183,
+      "period_sigma_V": 0.010584620709353402,
+      "phase_full_restoration_finite_path_rad": 0.10509909001478157,
+      "phase_full_restoration_launch_finite_path_rad": 0.14847273663561736,
+      "phase_full_restoration_launch_infinity_rad": 0.1475772707009701,
+      "phase_full_restoration_rad": 0.10398138050154399,
+      "phase_hat_rad": 6.258968307225576,
+      "q_hat_cps": [
+        2.2073977301741587,
+        -0.0775188707175461
+      ],
+      "source": "datasets/2026-03-08-06-52-49--2026-03-08-07-59-00/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.8017169037711498,
+      "transmission_Tinfinity": 0.7887736790721583,
+      "transmission_atmosphere": 0.8623183,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.9436262202767268
+    },
+    {
+      "covariance_cps2": [
+        [
+          21.45063271310678,
+          -1.3547195394958302
+        ],
+        [
+          -1.3547195394958302,
+          21.172384899476647
+        ]
+      ],
+      "dataset_id": "2026-03-08-12-21-56--2026-03-08-13-28-33",
+      "normalization_Rfinite_path_cps": 56.471877914615376,
+      "normalization_Rinfty_cps": 55.56017429257035,
+      "normalization_Rpm_cps": 75.61467817791366,
+      "normalization_launch_floor_Rfinite_path_cps": 112.94375582923075,
+      "normalization_launch_floor_Rinfinity_cps": 111.1203485851407,
+      "period_V": 2.077366411759154,
+      "period_sigma_V": 0.008678529314282576,
+      "phase_full_restoration_finite_path_rad": 2.3353978576808587,
+      "phase_full_restoration_launch_finite_path_rad": 2.3600840160561223,
+      "phase_full_restoration_launch_infinity_rad": 2.3595542861337733,
+      "phase_full_restoration_rad": 2.3347865227732982,
+      "phase_hat_rad": 2.27109681847049,
+      "q_hat_cps": [
+        -4.5995018265256,
+        5.40987401160794
+      ],
+      "source": "datasets/2026-03-08-12-21-56--2026-03-08-13-28-33/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.7468375092695995,
+      "transmission_Tinfinity": 0.7347802785306168,
+      "transmission_atmosphere": 0.8873045,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.8542795299048483
+    },
+    {
+      "covariance_cps2": [
+        [
+          20.01636645615769,
+          -0.8435496743371788
+        ],
+        [
+          -0.8435496743371788,
+          21.866081553511666
+        ]
+      ],
+      "dataset_id": "2026-03-08-14-44-08--2026-03-08-15-45-35",
+      "normalization_Rfinite_path_cps": 49.46101320812519,
+      "normalization_Rinfty_cps": 48.66249567059889,
+      "normalization_Rpm_cps": 63.38995140992575,
+      "normalization_launch_floor_Rfinite_path_cps": 98.92202641625038,
+      "normalization_launch_floor_Rinfinity_cps": 97.32499134119777,
+      "period_V": 2.0534657479317078,
+      "period_sigma_V": 0.013324223097220185,
+      "phase_full_restoration_finite_path_rad": 1.7192523364870467,
+      "phase_full_restoration_launch_finite_path_rad": 1.7944783258083175,
+      "phase_full_restoration_launch_infinity_rad": 1.7928502241887487,
+      "phase_full_restoration_rad": 1.717412590927762,
+      "phase_hat_rad": 1.5391090024700997,
+      "q_hat_cps": [
+        0.1284271245078977,
+        6.250597678247082
+      ],
+      "source": "datasets/2026-03-08-14-44-08--2026-03-08-15-45-35/analysis/mzi-null-bounds.json",
+      "transmission_Tfinite_path": 0.7802658324861953,
+      "transmission_Tinfinity": 0.7676689220963687,
+      "transmission_atmosphere": 0.9151434,
+      "transmission_launch_optics": 0.9852658675200001,
+      "transmission_milky_way": 0.8653663429563481
+    }
+  ],
+  "leave_one_out": [
+    {
+      "deviance_min": 0.642851587846384,
+      "eta_hat": 0.09768141428219043,
+      "eta_upper": 0.163785688504492,
+      "eta_upper_nominal": 0.163785688504492,
+      "omitted_dataset_id": "2026-03-05-13-29-15--2026-03-05-14-20-45",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    },
+    {
+      "deviance_min": 0.4706543207457173,
+      "eta_hat": 0.10137323594401193,
+      "eta_upper": 0.1679585052928601,
+      "eta_upper_nominal": 0.1679585052928601,
+      "omitted_dataset_id": "2026-03-06-15-06-58--2026-03-06-16-03-22",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    },
+    {
+      "deviance_min": 0.6784357167205115,
+      "eta_hat": 0.08977557632314472,
+      "eta_upper": 0.16064334785778253,
+      "eta_upper_nominal": 0.16064334785778253,
+      "omitted_dataset_id": "2026-03-06-21-27-03--2026-03-06-22-25-50",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    },
+    {
+      "deviance_min": 0.564636572087492,
+      "eta_hat": 0.09948939401651771,
+      "eta_upper": 0.16568843192132693,
+      "eta_upper_nominal": 0.16568843192132693,
+      "omitted_dataset_id": "2026-03-08-06-52-49--2026-03-08-07-59-00",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    },
+    {
+      "deviance_min": 0.5186413080221887,
+      "eta_hat": 0.08575515377753772,
+      "eta_upper": 0.15421010473708288,
+      "eta_upper_nominal": 0.15421010473708288,
+      "omitted_dataset_id": "2026-03-08-12-21-56--2026-03-08-13-28-33",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    },
+    {
+      "deviance_min": 0.5598268751588964,
+      "eta_hat": 0.08757090096162327,
+      "eta_upper": 0.1544315128846231,
+      "eta_upper_nominal": 0.1544315128846231,
+      "omitted_dataset_id": "2026-03-08-14-44-08--2026-03-08-15-45-35",
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated": false
+    }
+  ],
+  "method": {
+    "eta_domain": [
+      0.0,
+      1.0
+    ],
+    "full_restoration_test": "one_sided_profile_likelihood_ratio",
+    "launch_normalization_treatment": "conservative_floor_twice_the_stated_detected_rate",
+    "likelihood": "joint_gaussian_dataset_quadratures",
+    "likelihood_ratio_statistic": "q=-2*log(lambda)=deviance_constrained-deviance_minimum",
+    "model": "common_restoration_fraction_independent_dataset_phases",
+    "normalization_treatment": "conditional_on_stated_dataset_normalizations",
+    "null_test": "parametric_monte_carlo_profile_likelihood_ratio",
+    "phase_domain_rad": [
+      0.0,
+      6.283185307179586
+    ],
+    "upper_limit_method": "profile_likelihood_with_parametric_coverage_check"
+  },
+  "normalizations": {
+    "finite_path": {
+      "deviance_min": 0.7138084162237877,
+      "eta_hat": 0.09227392881780797,
+      "eta_upper": 0.15285144554991875,
+      "full_restoration_deviance": 594.6213416605385,
+      "full_restoration_nominal_sigma": 24.3702181616069,
+      "full_restoration_phases_rad": [
+        0.06402554247010309,
+        1.1376499586572861,
+        2.4118167261441874,
+        0.10509909001478157,
+        2.3353978576808587,
+        1.7192523364870467
+      ],
+      "full_restoration_q": 593.9075332443148,
+      "phases_hat_rad": [
+        0.29364627778180313,
+        6.213742977094154,
+        2.975769610362526,
+        6.258968306994494,
+        2.27109681847036,
+        1.5391090025042946
+      ],
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated_at_eta_one": false
+    },
+    "infinity": {
+      "deviance_min": 0.7138084162237875,
+      "eta_hat": 0.093788079488654,
+      "eta_upper": 0.15535963092407676,
+      "full_restoration_deviance": 573.8685040274914,
+      "full_restoration_nominal_sigma": 23.940649440047938,
+      "full_restoration_phases_rad": [
+        0.06600711473646308,
+        1.1320275770258235,
+        2.4191118970574568,
+        0.10398138050154399,
+        2.3347865227732982,
+        1.717412590927762
+      ],
+      "full_restoration_q": 573.1546956112677,
+      "phases_hat_rad": [
+        0.29364626890293805,
+        6.213742977094199,
+        2.9757696103620748,
+        6.258968307225576,
+        2.27109681847049,
+        1.5391090024700997
+      ],
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated_at_eta_one": false
+    },
+    "launch_floor_finite_path": {
+      "deviance_min": 0.7138084162237877,
+      "eta_hat": 0.046136964410950304,
+      "eta_upper": 0.07642572277499139,
+      "full_restoration_deviance": 2592.053856983463,
+      "full_restoration_nominal_sigma": 50.905206497638716,
+      "full_restoration_phases_rad": [
+        6.271392599945883,
+        1.3055558266177052,
+        2.150801999528263,
+        0.14847273663561736,
+        2.3600840160561223,
+        1.7944783258083175
+      ],
+      "full_restoration_q": 2591.340048567239,
+      "phases_hat_rad": [
+        0.29364626897949436,
+        6.213742977094561,
+        2.9757696103605342,
+        6.258968307688092,
+        2.2710968184923135,
+        1.539109002413628
+      ],
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated_at_eta_one": false
+    },
+    "launch_floor_infinity": {
+      "deviance_min": 0.7138084162237879,
+      "eta_hat": 0.04689403975949853,
+      "eta_upper": 0.07767981546203835,
+      "full_restoration_deviance": 2505.6901423428767,
+      "full_restoration_nominal_sigma": 50.04973859998324,
+      "full_restoration_phases_rad": [
+        6.27293420660107,
+        1.3028398424375587,
+        2.1556707051025352,
+        0.1475772707009701,
+        2.3595542861337733,
+        1.7928502241887487
+      ],
+      "full_restoration_q": 2504.976333926653,
+      "phases_hat_rad": [
+        0.2936462690778818,
+        6.213742977098196,
+        2.9757696103476317,
+        6.258968307234229,
+        2.2710968184744598,
+        1.539109002445557
+      ],
+      "profile_cutoff": 2.705543454095413,
+      "upper_limit_truncated_at_eta_one": false
+    }
+  },
+  "null_test": {
+    "exceedances": 3963,
+    "fit_iterations_max": 7,
+    "mean_eta_hat": 0.11372565254871722,
+    "method": "parametric_gaussian_likelihood_ratio_at_eta_zero",
+    "null_hypothesis": "eta_equals_zero",
+    "observed_null_deviance": 7.002428081399227,
+    "observed_q": 6.28861966517544,
+    "pvalue": 0.7926414717056589,
+    "seed": 12349,
+    "simulated_q_quantiles": {
+      "q05": 4.014265861490948,
+      "q50": 9.104369837392131,
+      "q95": 17.46222332776412
+    },
+    "simulations": 5000
+  },
+  "robustness": {
+    "additional_common_optical_depth": 1.8620126500593697,
+    "critical_common_transmission_scale": 0.15535963092407676,
+    "critical_igm_optical_depth": 1.878288773379037,
+    "critical_igm_transmission": 0.15285144554998278,
+    "critical_to_nominal_igm_optical_depth_ratio": 115.40148329482163,
+    "nominal_igm_optical_depth": 0.01627612331966725,
+    "nominal_to_critical_scale_ratio": 6.436678524865275
+  },
+  "schema_version": 2,
+  "summary": {
+    "T_finite_path_max": 0.8304719907914939,
+    "T_finite_path_min": 0.7468375092695995,
+    "T_infinity_max": 0.817064532956351,
+    "T_infinity_min": 0.7347802785306168,
+    "additional_common_optical_depth": 1.8620126500593697,
+    "atmosphere_transmission_max": 0.9151434,
+    "atmosphere_transmission_min": 0.8623183,
+    "common_igm_transmission": 0.9838556170661882,
+    "confidence": 0.95,
+    "critical_common_transmission_scale": 0.15535963092407676,
+    "critical_igm_optical_depth": 1.878288773379037,
+    "critical_igm_transmission": 0.15285144554998278,
+    "critical_to_nominal_igm_optical_depth_ratio": 115.40148329482163,
+    "deviance_min": 0.7138084162237875,
+    "eta_hat": 0.093788079488654,
+    "eta_hat_finite_path": 0.09227392881780797,
+    "eta_upper": 0.15535963092407676,
+    "eta_upper_finite_path": 0.15285144554991875,
+    "eta_upper_launch_finite_path": 0.07642572277499139,
+    "eta_upper_launch_infinity": 0.07767981546203835,
+    "eta_upper_nominal": 0.15535963092407676,
+    "finite_path_full_restoration_deviance": 594.6213416605385,
+    "finite_path_full_restoration_nominal_sigma": 24.3702181616069,
+    "finite_path_full_restoration_q": 593.9075332443148,
+    "full_restoration_deviance": 573.8685040274914,
+    "full_restoration_nominal_sigma": 23.940649440047938,
+    "full_restoration_q": 573.1546956112677,
+    "heterogeneity_monte_carlo_pvalue": 0.9518096380723855,
+    "launch_finite_path_full_restoration_deviance": 2592.053856983463,
+    "launch_finite_path_full_restoration_nominal_sigma": 50.905206497638716,
+    "launch_finite_path_full_restoration_q": 2591.340048567239,
+    "launch_infinity_full_restoration_deviance": 2505.6901423428767,
+    "launch_infinity_full_restoration_nominal_sigma": 50.04973859998324,
+    "launch_infinity_full_restoration_q": 2504.976333926653,
+    "launch_optics_transmission": 0.9852658675200001,
+    "leave_one_out_eta_upper_max": 0.1679585052928601,
+    "leave_one_out_eta_upper_min": 0.15421010473708288,
+    "milky_way_transmission_max": 0.9436262202767268,
+    "milky_way_transmission_min": 0.8448896694845209,
+    "monte_carlo_gof_pvalue": 0.9518096380723855,
+    "n_datasets": 6,
+    "nominal_gof_df": 5,
+    "nominal_gof_pvalue": 0.9822022496767079,
+    "nominal_igm_optical_depth": 0.01627612331966725,
+    "nominal_profile_cutoff": 2.705543454095413,
+    "nominal_to_critical_scale_ratio": 6.436678524865275,
+    "null_deviance": 7.002428081399227,
+    "null_monte_carlo_pvalue": 0.7926414717056589,
+    "null_q": 6.28861966517544,
+    "period_V_max": 2.080816187896801,
+    "period_V_min": 2.0515408570327183,
+    "period_sigma_V_max": 0.013324223097220185,
+    "period_sigma_V_min": 0.008678529314282576,
+    "profile_cutoff": 2.705543454095413,
+    "profile_cutoff_calibrated": false,
+    "upper_limit_truncated_at_eta_one": false
+  }
+}

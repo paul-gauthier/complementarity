@@ -1,0 +1,49 @@
+{
+  "run_id": "2026-03-06-21-27-03",
+  "script": "mzi.py",
+  "args": {
+    "channel": "IC",
+    "cache_period": false,
+    "period": null,
+    "dur": 90.0,
+    "destination": "launch"
+  },
+  "analysis": {
+    "channel": "IC",
+    "acq_dur_s": 90.0,
+    "DARK_DUR_s": 60.0,
+    "DEFAULT_PERIOD_V": 2.05,
+    "DEFAULT_PERIOD_MUL": 1.5,
+    "STEPS_PER_P": 7,
+    "P_FIT_MIN_V": 1.7499999999999998,
+    "P_FIT_MAX_V": 2.3499999999999996,
+    "UNLOCK_COVERAGE_FRAC": 1,
+    "UNLOCK_MIN_POINTS": 7,
+    "bounds_V": [
+      42,
+      45.075
+    ],
+    "cache_period": false,
+    "initial_P_for_fit_V": null
+  },
+  "devices": {
+    "power": 1,
+    "laser_on": true,
+    "beam_block": "unblock",
+    "signal_destination": "launch",
+    "angles_deg": {
+      "pump_hwp": 22.5,
+      "signal_hwp": 0.0,
+      "idler_hwp": 0.0,
+      "signal_lp": 0.0,
+      "idler_lp": -18.04,
+      "idler_lp_device_move": -9.02
+    },
+    "stage": {
+      "axis": 1,
+      "start_V": 42.0,
+      "end_V": 45.075,
+      "step_V": 0.2928571428571428
+    }
+  }
+}

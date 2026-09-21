@@ -1,0 +1,73 @@
+Target time (UTC): 2026-03-07 05:27:03 UTC
+Target time (PT): 2026-03-06 21:27:03 PST
+
+Station: KSBA (Santa Barbara Muni, CA, US)
+Report time (UTC): 2026-03-07T05:00:00.000Z
+Report time (PT): 2026-03-06 21:00:00 PST
+Delta from target: -0.45 hours
+Cloud cover: CLR
+Clouds: none
+Visibility: 10+ sm
+Temperature: 11.1 °C (52.0 °F)
+Dew point: 4.4 °C (39.9 °F)
+Temp/dew spread: 6.7 °C
+Wind: 290° at 3 kt
+Altimeter: 1017.0 hPa (30.03 inHg)
+Flight category: VFR
+Raw METAR: METAR KSBA 070453Z 29003KT 10SM CLR 11/04 A3003 RMK AO2 SLP169 T01110044
+
+AERONET Lunar AOD site: UCSB
+Data quality level: Level 1.0 (lev10; unscreened; final calibration may not be applied)
+Record time: 2026-03-07 06:25:46 UTC
+Record time (PT): 2026-03-06 22:25:46 PST
+Delta from target: +0.98 hours
+AOD: 675nm=0.066, 870nm=0.059
+Angstrom exponent 440–870: 0.520
+PWV: 8.72 mm
+Angstrom parameterization: derived from AOD 675/870 nm; alpha=0.486
+
+IRSA Galactic Dust (foreground, integrated through the Galaxy) at zenith (ICRS)
+Sky coord: RA=126.448004°, Dec=34.502821° (ICRS)
+Matched band: DSS-II i, LamEff≈0.8111 µm
+Extinction column: A_SandF
+A_lambda (mag): 0.069
+Transmission: T=0.9384 (93.8%)
+Integrated window: 49 minutes, sampled every 5 minutes
+Window start (UTC): 2026-03-07 05:27:03 UTC
+Window end (UTC): 2026-03-07 06:16:03 UTC
+Samples: 11
+Transmission summary:
+  Min T: 0.9384 at 2026-03-07 05:27:03 UTC, RA=126.448004°, Dec=34.502821°
+  Avg T: 0.9594; closest sample at 2026-03-07 05:52:03 UTC, RA=132.721592°, Dec=34.515576° (sample T=0.9585)
+  Max T: 0.9781 at 2026-03-07 06:16:03 UTC, RA=138.745146°, Dec=34.526739°
+
+Atmospheric transmission estimate from libRadtran [AERONET lunar]
+-----------------------------------------------------------------
+uvspec executable : /opt/libRadtran-2.0.6/bin/uvspec
+data path         : /opt/libRadtran-2.0.6/data
+
+Inputs
+  Source          : AERONET lunar
+  Pressure        : 1017.000 hPa
+  AOD (870nm)     : 0.05859
+  Ref wavelength  : 870 nm (0.8700 µm)
+  Angstrom alpha  : 0.48592
+  Angstrom beta   : 0.05475264
+  TPW             : 8.719 mm
+  METAR sky       : CLR
+  COD status      : invalid
+
+Band
+  Filter          : rectangular 782.0-867.0 nm
+  Reference       : 810.0 nm
+
+Results
+  T_band          : 0.898197
+  T_810            : 0.913256
+
+Notes
+  - METAR sky condition = CLR; METAR reports clear sky.
+  - No cloud optical depth was supplied; none was applied.
+  - Running libRadtran in clear-sky mode (no cloud optical depth).
+  - Surface temperature 11.1 C (284.25 K) applied via sur_temperature.
+  - Surface RH 63.3% available but not used directly.

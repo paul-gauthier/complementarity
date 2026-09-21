@@ -1,0 +1,253 @@
+{
+  "schema_version": 10,
+  "source_date_epoch": 1772997716,
+  "random_seed": 12345,
+  "transmission_analysis": {
+    "milky_way_basis": "minimum"
+  },
+  "igm_transmission": {
+    "hubble_constant_km_s_mpc": 67.4,
+    "omega_m": 0.315,
+    "omega_lambda": 0.685,
+    "idler_wavelength_nm": 810.0,
+    "dust_visual_extinction_mag": 0.03,
+    "dust_normalization_distance_gpc": 1.9,
+    "dust_r_v": 3.1,
+    "electron_density_cm3": 2.5e-7,
+    "thomson_cross_section_cm2": 6.652e-25,
+    "galaxy_number_density_h3_mpc3": 0.02,
+    "galaxy_radius_hinv_pc": 10000.0,
+    "references": {
+      "cosmology": "Planck Collaboration, Planck 2018 results. VI. Cosmological parameters, Astron. Astrophys. 641, A6 (2020), doi:10.1051/0004-6361/201833910; corrigendum, Astron. Astrophys. 652, C4 (2021)",
+      "dust_normalization": "Menard, Scranton, Fukugita, and Richards, Measuring the galaxy-mass and galaxy-dust correlations through magnification and reddening (2010), doi:10.1111/j.1365-2966.2010.16486.x",
+      "dust_extinction_curve": "Cardelli, Clayton, and Mathis, The Relationship between Infrared, Optical, and Ultraviolet Extinction (1989), doi:10.1086/167900",
+      "galaxy_interception": "Craig, Observation of the Final Boundary Condition: Extragalactic Background Radiation and the Time Symmetry of the Universe (1996), doi:10.1006/aphy.1996.0119"
+    }
+  },
+  "pooled_analysis": {
+    "confidence": 0.95,
+    "eta_max": 1.0,
+    "coverage_simulations": 5000,
+    "coverage_eta_grid": [
+      0.0,
+      0.01,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.125,
+      0.15,
+      0.2,
+      0.3,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "random_phase_configurations": 4
+  },
+  "acquisitions": {
+    "2026-03-05-13-29-15": "data/raw/mzi/2026-03-05-13-29-15",
+    "2026-03-05-14-20-45": "data/raw/mzi/2026-03-05-14-20-45",
+    "2026-03-06-15-06-58": "data/raw/mzi/2026-03-06-15-06-58",
+    "2026-03-06-16-03-22": "data/raw/mzi/2026-03-06-16-03-22",
+    "2026-03-06-21-27-03": "data/raw/mzi/2026-03-06-21-27-03",
+    "2026-03-06-22-25-50": "data/raw/mzi/2026-03-06-22-25-50",
+    "2026-03-08-06-52-49": "data/raw/mzi/2026-03-08-06-52-49",
+    "2026-03-08-07-59-00": "data/raw/mzi/2026-03-08-07-59-00",
+    "2026-03-08-12-21-56": "data/raw/mzi/2026-03-08-12-21-56",
+    "2026-03-08-13-28-33": "data/raw/mzi/2026-03-08-13-28-33",
+    "2026-03-08-14-44-08": "data/raw/mzi/2026-03-08-14-44-08",
+    "2026-03-08-15-45-35": "data/raw/mzi/2026-03-08-15-45-35"
+  },
+  "datasets": [
+    {
+      "id": "2026-03-05-13-29-15--2026-03-05-14-20-45",
+      "display_id": "D1",
+      "launch_run": "2026-03-05-13-29-15",
+      "preserve_run": "2026-03-05-14-20-45",
+      "visual_conditions": "Perfectly clean blue skies",
+      "conditions_profile": "2026-03-05-13-29-15"
+    },
+    {
+      "id": "2026-03-06-15-06-58--2026-03-06-16-03-22",
+      "display_id": "D2",
+      "launch_run": "2026-03-06-15-06-58",
+      "preserve_run": "2026-03-06-16-03-22",
+      "visual_conditions": "Pure blue sky above; wispy clouds near the western horizon, moving away",
+      "conditions_profile": "2026-03-06-15-06-58"
+    },
+    {
+      "id": "2026-03-06-21-27-03--2026-03-06-22-25-50",
+      "display_id": "D3",
+      "launch_run": "2026-03-06-21-27-03",
+      "preserve_run": "2026-03-06-22-25-50",
+      "visual_conditions": "Clear sky; many stars visible",
+      "conditions_profile": "2026-03-06-21-27-03"
+    },
+    {
+      "id": "2026-03-08-06-52-49--2026-03-08-07-59-00",
+      "display_id": "D4",
+      "launch_run": "2026-03-08-06-52-49",
+      "preserve_run": "2026-03-08-07-59-00",
+      "visual_conditions": "Perfect blue skies at end of launch",
+      "conditions_profile": "2026-03-08-06-52-49"
+    },
+    {
+      "id": "2026-03-08-12-21-56--2026-03-08-13-28-33",
+      "display_id": "D5",
+      "launch_run": "2026-03-08-12-21-56",
+      "preserve_run": "2026-03-08-13-28-33",
+      "visual_conditions": "Perfect blue sky at end of launch",
+      "conditions_profile": "2026-03-08-12-21-56"
+    },
+    {
+      "id": "2026-03-08-14-44-08--2026-03-08-15-45-35",
+      "display_id": "D6",
+      "launch_run": "2026-03-08-15-45-35",
+      "preserve_run": "2026-03-08-14-44-08",
+      "visual_conditions": "Perfect clear blue sky before launch, 3:33 PM",
+      "conditions_profile": "2026-03-08-15-45-35"
+    }
+  ],
+  "conditions_profiles": {
+    "2026-03-05-13-29-15": {
+      "target_timestamp": "2026-03-05-13-29-15",
+      "integration_minutes": 49,
+      "aeronet_variant": "solar",
+      "atmosphere_source": "goes",
+      "pull_prefixes": {
+        "metar": "2026-03-05-13-46-36",
+        "aeronet": "2026-03-05-13-46-36",
+        "goes": "2026-03-05-13-46-36",
+        "irsa": "2026-07-27-14-31-03"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-05-13-29-15/metar/2026-03-05-13-46-36-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-05-13-29-15/aeronet/2026-03-05-13-46-36-AERONET_UCSB.csv",
+        "goes_aod": "data/raw/conditions/2026-03-05-13-29-15/goes/2026-03-05-13-46-36-OR_ABI-L2-AODC-M6_G18_s20260642131175_e20260642133548_c20260642137109.nc",
+        "goes_cod": "data/raw/conditions/2026-03-05-13-29-15/goes/2026-03-05-13-46-36-OR_ABI-L2-CODC-M6_G18_s20260642131175_e20260642133548_c20260642137043.nc",
+        "goes_tpw": "data/raw/conditions/2026-03-05-13-29-15/goes/2026-03-05-13-46-36-OR_ABI-L2-TPWC-M6_G18_s20260642131175_e20260642133548_c20260642135481.nc",
+        "irsa_json": "data/raw/conditions/2026-03-05-13-29-15/irsa/2026-07-27-14-31-03-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-05-13-29-15/irsa/2026-07-27-14-31-03-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-05-13-29-15/irsa/2026-07-27-14-31-03-IRSA_zenith.ecsv"
+      }
+    },
+    "2026-03-06-15-06-58": {
+      "target_timestamp": "2026-03-06-15-06-58",
+      "integration_minutes": 49,
+      "aeronet_variant": "lunar",
+      "atmosphere_source": "goes",
+      "pull_prefixes": {
+        "metar": "2026-03-06-15-19-22",
+        "aeronet": "2026-03-07-11-32-45",
+        "goes": "2026-03-06-15-19-22",
+        "irsa": "2026-07-27-14-32-13"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-06-15-06-58/metar/2026-03-06-15-19-22-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-06-15-06-58/aeronet/2026-03-07-11-32-45-AERONET_LUNAR_UCSB.csv",
+        "goes_aod": "data/raw/conditions/2026-03-06-15-06-58/goes/2026-03-06-15-19-22-OR_ABI-L2-AODC-M6_G18_s20260652306177_e20260652308550_c20260652312185.nc",
+        "goes_cod": "data/raw/conditions/2026-03-06-15-06-58/goes/2026-03-06-15-19-22-OR_ABI-L2-CODC-M6_G18_s20260652306177_e20260652308550_c20260652312218.nc",
+        "goes_tpw": "data/raw/conditions/2026-03-06-15-06-58/goes/2026-03-06-15-19-22-OR_ABI-L2-TPWC-M6_G18_s20260652306177_e20260652308550_c20260652310553.nc",
+        "irsa_json": "data/raw/conditions/2026-03-06-15-06-58/irsa/2026-07-27-14-32-13-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-06-15-06-58/irsa/2026-07-27-14-32-13-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-06-15-06-58/irsa/2026-07-27-14-32-13-IRSA_zenith.ecsv"
+      }
+    },
+    "2026-03-06-21-27-03": {
+      "target_timestamp": "2026-03-06-21-27-03",
+      "integration_minutes": 49,
+      "aeronet_variant": "lunar",
+      "atmosphere_source": "aeronet",
+      "pull_prefixes": {
+        "metar": "2026-03-06-21-52-00",
+        "aeronet": "2026-03-07-11-31-41",
+        "irsa": "2026-07-27-14-32-36"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-06-21-27-03/metar/2026-03-06-21-52-00-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-06-21-27-03/aeronet/2026-03-07-11-31-41-AERONET_LUNAR_UCSB.csv",
+        "irsa_json": "data/raw/conditions/2026-03-06-21-27-03/irsa/2026-07-27-14-32-36-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-06-21-27-03/irsa/2026-07-27-14-32-36-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-06-21-27-03/irsa/2026-07-27-14-32-36-IRSA_zenith.ecsv"
+      }
+    },
+    "2026-03-08-06-52-49": {
+      "target_timestamp": "2026-03-08-06-52-49",
+      "integration_minutes": 49,
+      "aeronet_variant": "lunar",
+      "atmosphere_source": "goes",
+      "pull_prefixes": {
+        "metar": "2026-03-08-07-23-38",
+        "aeronet": "2026-03-08-07-23-38",
+        "goes": "2026-08-28-13-30-06",
+        "irsa": "2026-07-27-14-32-58"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-08-06-52-49/metar/2026-03-08-07-23-38-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-08-06-52-49/aeronet/2026-03-08-07-23-38-AERONET_LUNAR_UCSB.csv",
+        "goes_aod": "data/raw/conditions/2026-03-08-06-52-49/goes/2026-08-28-13-30-06-OR_ABI-L2-AODC-M6_G18_s20260671531180_e20260671533553_c20260671537151.nc",
+        "goes_cod": "data/raw/conditions/2026-03-08-06-52-49/goes/2026-08-28-13-30-06-OR_ABI-L2-CODC-M6_G18_s20260671531180_e20260671533553_c20260671537442.nc",
+        "goes_tpw": "data/raw/conditions/2026-03-08-06-52-49/goes/2026-08-28-13-30-06-OR_ABI-L2-TPWC-M6_G18_s20260671531180_e20260671533553_c20260671535546.nc",
+        "irsa_json": "data/raw/conditions/2026-03-08-06-52-49/irsa/2026-07-27-14-32-58-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-08-06-52-49/irsa/2026-07-27-14-32-58-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-08-06-52-49/irsa/2026-07-27-14-32-58-IRSA_zenith.ecsv"
+      }
+    },
+    "2026-03-08-12-21-56": {
+      "target_timestamp": "2026-03-08-12-21-56",
+      "integration_minutes": 49,
+      "aeronet_variant": "solar",
+      "atmosphere_source": "goes",
+      "pull_prefixes": {
+        "metar": "2026-03-08-12-35-51",
+        "aeronet": "2026-03-15-16-58-56",
+        "goes": "2026-03-08-16-48-36",
+        "irsa": "2026-07-01-13-20-18"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-08-12-21-56/metar/2026-03-08-12-35-51-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-08-12-21-56/aeronet/2026-03-15-16-58-56-AERONET_UCSB.csv",
+        "goes_aod": "data/raw/conditions/2026-03-08-12-21-56/goes/2026-03-08-16-48-36-OR_ABI-L2-AODC-M6_G18_s20260671921180_e20260671923553_c20260671926329.nc",
+        "goes_cod": "data/raw/conditions/2026-03-08-12-21-56/goes/2026-03-08-16-48-36-OR_ABI-L2-CODC-M6_G18_s20260671921180_e20260671923553_c20260671926241.nc",
+        "goes_tpw": "data/raw/conditions/2026-03-08-12-21-56/goes/2026-03-08-16-48-36-OR_ABI-L2-TPWC-M6_G18_s20260671921180_e20260671923553_c20260671925493.nc",
+        "irsa_json": "data/raw/conditions/2026-03-08-12-21-56/irsa/2026-07-01-13-20-18-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-08-12-21-56/irsa/2026-07-01-13-20-18-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-08-12-21-56/irsa/2026-07-01-13-20-18-IRSA_zenith.ecsv"
+      }
+    },
+    "2026-03-08-15-45-35": {
+      "target_timestamp": "2026-03-08-15-45-35",
+      "integration_minutes": 49,
+      "aeronet_variant": "solar",
+      "atmosphere_source": "goes",
+      "pull_prefixes": {
+        "metar": "2026-03-15-17-38-18",
+        "aeronet": "2026-03-15-17-38-18",
+        "goes": "2026-03-15-17-38-18",
+        "irsa": "2026-07-27-14-35-38"
+      },
+      "sources": {
+        "metar": "data/raw/conditions/2026-03-08-15-45-35/metar/2026-03-15-17-38-18-SBA.json",
+        "aeronet": "data/raw/conditions/2026-03-08-15-45-35/aeronet/2026-03-15-17-38-18-AERONET_UCSB.csv",
+        "goes_aod": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-AODC-M6_G18_s20260672246180_e20260672248553_c20260672251354.nc",
+        "goes_cod": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-CODC-M6_G18_s20260672246180_e20260672248553_c20260672251231.nc",
+        "goes_tpw": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-TPWC-M6_G18_s20260672246180_e20260672248553_c20260672250519.nc",
+        "irsa_json": "data/raw/conditions/2026-03-08-15-45-35/irsa/2026-07-27-14-35-38-IRSA_zenith.json",
+        "irsa_csv": "data/raw/conditions/2026-03-08-15-45-35/irsa/2026-07-27-14-35-38-IRSA_zenith.csv",
+        "irsa_ecsv": "data/raw/conditions/2026-03-08-15-45-35/irsa/2026-07-27-14-35-38-IRSA_zenith.ecsv"
+      }
+    }
+  },
+  "null_bounds": {
+    "launch": "Launch",
+    "control": "Erase",
+    "phase_reference": "Erase",
+    "phase_channel": "C",
+    "rpm_erased": "Erase",
+    "rpm_unmodified": "Preserve",
+    "bootstrap": 10000,
+    "permutations": 10000,
+    "voltage_tolerance": 0.025
+  }
+}

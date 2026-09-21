@@ -1,0 +1,447 @@
+{
+  "schema_version": 5,
+  "terminology": {
+    "d_X": "measured in-apparatus dark-run background rate for channel X, not the intrinsic detector dark-count rate",
+    "dark_run_background_components": "intrinsic detector dark counts, optical or ambient background, and electronic background"
+  },
+  "coincidence_window": {
+    "width_s": 2.5e-08,
+    "width_ns": 25.0,
+    "convention": "full effective coincidence-window width",
+    "input": {
+      "file": "dark.json",
+      "field": "w_s",
+      "location": "top-level",
+      "unit": "s"
+    },
+    "validation": {
+      "required_for_every_run": true,
+      "matched_canonical_width": true
+    }
+  },
+  "channel_mapping": {
+    "N_i": "S1",
+    "N_i2": "S2",
+    "N_s": "I",
+    "N_c": "C1",
+    "N_c2": "C2"
+  },
+  "correction_model": {
+    "coincidence_window": "w is the full effective coincidence-window width",
+    "accidental_counts": "N_{\\mathrm{acc},j} = (w / \\Delta t) N_I N_{S_j}",
+    "residual_dark_coincidence_background": "b_{C_j} = d_{C_j} - w d_I d_{S_j}",
+    "corrected_coincidence_rate": "R_{C_j}^{\\mathrm{corr}} = (N_{C_j} - N_{\\mathrm{acc},j}) / \\Delta t - b_{C_j}",
+    "corrected_singles_rate": "R_{S_j}^{\\mathrm{corr}} = max(N_{S_j} / \\Delta t - d_{S_j}, 0)",
+    "aggregation": "pointwise corrected quantities weighted by exposure"
+  },
+  "runs": [
+    {
+      "run": "1",
+      "run_name": "launch-erase",
+      "condition": "Erase",
+      "detected_idler": true,
+      "directory": "data/raw/mzi/2026-03-05-13-29-15/lab",
+      "inputs": {
+        "dark": "data/raw/mzi/2026-03-05-13-29-15/lab/dark.json",
+        "points": "data/raw/mzi/2026-03-05-13-29-15/lab/points.jsonl",
+        "plan": "data/raw/mzi/2026-03-05-13-29-15/lab/plan.json"
+      },
+      "plan": {
+        "points_per_scan": 11,
+        "scan_count": 9,
+        "planned_voltage_min_V": 42.0,
+        "planned_voltage_max_V": 44.928571428571445
+      },
+      "point_count": 99,
+      "total_exposure_s": 990.0,
+      "dark_run_background_measurements": {
+        "exposure_s": 60.0,
+        "S1": {
+          "counts": 34801,
+          "rate_cps": 580.0166666666667,
+          "poisson_sigma_cps": 3.1091710220643134
+        },
+        "S2": {
+          "counts": 29469,
+          "rate_cps": 491.15,
+          "poisson_sigma_cps": 2.861089536056733
+        },
+        "I": {
+          "counts": 545864,
+          "rate_cps": 9097.733333333334,
+          "poisson_sigma_cps": 12.313768265193596
+        },
+        "C1": {
+          "counts": 12,
+          "rate_cps": 0.2,
+          "poisson_sigma_cps": 0.057735026918962574
+        },
+        "C2": {
+          "counts": 12,
+          "rate_cps": 0.2,
+          "poisson_sigma_cps": 0.057735026918962574
+        },
+        "C1_residual_dark_coincidence_background_cps": 0.06807907594444446,
+        "C1_residual_dark_coincidence_background_sigma_cps": 0.05773963362126421,
+        "C2_residual_dark_coincidence_background_cps": 0.08829120683333336,
+        "C2_residual_dark_coincidence_background_sigma_cps": 0.05773889201462976
+      },
+      "rate_budget": {
+        "raw_singles_cps": {
+          "S1": 2233.1444444444446,
+          "S2": 1753.9282828282828,
+          "I": 13347.2
+        },
+        "dark_subtracted_singles_cps": {
+          "S1": 1653.127777777776,
+          "S2": 1262.7782828282827
+        },
+        "raw_coincidence_rates_cps": {
+          "C1": 75.73636363636363,
+          "C2": 47.75151515151515,
+          "total": 123.48787878787878
+        },
+        "corrected_coincidence_rates_cps": {
+          "C1": 74.92313199197976,
+          "C2": 47.07797163539145,
+          "total": 122.00110362737121
+        },
+        "accidental_rates_cps": {
+          "C1": 0.7451525684393939,
+          "C2": 0.5852523092904041,
+          "total": 1.330404877729798
+        },
+        "accidental_fraction_of_raw_total": 0.010773566529676164
+      },
+      "diagnostics": {
+        "internal_raw_counts": {
+          "S1": 2210813,
+          "S2": 1736389,
+          "I": 13213728,
+          "C1": 74979,
+          "C2": 47274
+        },
+        "unclipped_aggregate_dark_subtracted_singles_cps": {
+          "S1": 1653.127777777778,
+          "S2": 1262.778282828283
+        },
+        "singles_zero_clipping": {
+          "S1_point_count": 0,
+          "S2_point_count": 0
+        }
+      },
+      "cross_check": {
+        "status": "passed",
+        "compared_values": 693,
+        "max_absolute_residual": 1.4210854715202004e-14,
+        "max_relative_residual": 2.1933236419950524e-16
+      }
+    },
+    {
+      "run": "1",
+      "run_name": "launch-erase",
+      "condition": "Launch",
+      "detected_idler": false,
+      "directory": "data/raw/mzi/2026-03-05-13-29-15/launch",
+      "inputs": {
+        "dark": "data/raw/mzi/2026-03-05-13-29-15/launch/dark.json",
+        "points": "data/raw/mzi/2026-03-05-13-29-15/launch/points.jsonl",
+        "plan": "data/raw/mzi/2026-03-05-13-29-15/launch/plan.json"
+      },
+      "plan": {
+        "points_per_scan": 11,
+        "scan_count": 9,
+        "planned_voltage_min_V": 42.0,
+        "planned_voltage_max_V": 44.928571428571445
+      },
+      "point_count": 99,
+      "total_exposure_s": 990.0,
+      "dark_run_background_measurements": {
+        "exposure_s": 60.0,
+        "S1": {
+          "counts": 34907,
+          "rate_cps": 581.7833333333333,
+          "poisson_sigma_cps": 3.113902517563594
+        },
+        "S2": {
+          "counts": 29684,
+          "rate_cps": 494.73333333333335,
+          "poisson_sigma_cps": 2.871507540570903
+        },
+        "I": {
+          "counts": 27484,
+          "rate_cps": 458.06666666666666,
+          "poisson_sigma_cps": 2.7630498447267366
+        },
+        "C1": {
+          "counts": 1,
+          "rate_cps": 0.016666666666666666,
+          "poisson_sigma_cps": 0.016666666666666666
+        },
+        "C2": {
+          "counts": 0,
+          "rate_cps": 0.0,
+          "poisson_sigma_cps": 0.0
+        },
+        "C1_residual_dark_coincidence_background_cps": 0.010004277861111112,
+        "C1_residual_dark_coincidence_background_sigma_cps": 0.01666675326500418,
+        "C2_residual_dark_coincidence_background_cps": -0.005665521222222222,
+        "C2_residual_dark_coincidence_background_sigma_cps": 4.742585713745427e-05
+      },
+      "rate_budget": {
+        "raw_singles_cps": {
+          "S1": 2229.5929292929295,
+          "S2": 1755.3929292929292,
+          "I": null
+        },
+        "dark_subtracted_singles_cps": {
+          "S1": 1647.8095959595978,
+          "S2": 1260.659595959596
+        },
+        "raw_coincidence_rates_cps": {
+          "C1": null,
+          "C2": null,
+          "total": null
+        },
+        "corrected_coincidence_rates_cps": {
+          "C1": null,
+          "C2": null,
+          "total": null
+        },
+        "accidental_rates_cps": {
+          "C1": null,
+          "C2": null,
+          "total": null
+        },
+        "accidental_fraction_of_raw_total": null
+      },
+      "diagnostics": {
+        "internal_raw_counts": {
+          "S1": 2207297,
+          "S2": 1737839,
+          "I": 451779,
+          "C1": 52,
+          "C2": 34
+        },
+        "unclipped_aggregate_dark_subtracted_singles_cps": {
+          "S1": 1647.8095959595962,
+          "S2": 1260.659595959596
+        },
+        "singles_zero_clipping": {
+          "S1_point_count": 0,
+          "S2_point_count": 0
+        }
+      },
+      "cross_check": {
+        "status": "passed",
+        "compared_values": 693,
+        "max_absolute_residual": 5.551115123125783e-17,
+        "max_relative_residual": 4.760022260894194e-16
+      }
+    },
+    {
+      "run": "2",
+      "run_name": "preserve-erase",
+      "condition": "Erase",
+      "detected_idler": true,
+      "directory": "data/raw/mzi/2026-03-05-14-20-45/lab",
+      "inputs": {
+        "dark": "data/raw/mzi/2026-03-05-14-20-45/lab/dark.json",
+        "points": "data/raw/mzi/2026-03-05-14-20-45/lab/points.jsonl",
+        "plan": "data/raw/mzi/2026-03-05-14-20-45/lab/plan.json"
+      },
+      "plan": {
+        "points_per_scan": 11,
+        "scan_count": 9,
+        "planned_voltage_min_V": 42.0,
+        "planned_voltage_max_V": 44.928571428571445
+      },
+      "point_count": 99,
+      "total_exposure_s": 990.0,
+      "dark_run_background_measurements": {
+        "exposure_s": 60.0,
+        "S1": {
+          "counts": 34294,
+          "rate_cps": 571.5666666666667,
+          "poisson_sigma_cps": 3.0864398764776078
+        },
+        "S2": {
+          "counts": 29073,
+          "rate_cps": 484.55,
+          "poisson_sigma_cps": 2.8418010720902567
+        },
+        "I": {
+          "counts": 557133,
+          "rate_cps": 9285.55,
+          "poisson_sigma_cps": 12.440223738609633
+        },
+        "C1": {
+          "counts": 14,
+          "rate_cps": 0.23333333333333334,
+          "poisson_sigma_cps": 0.06236095644623236
+        },
+        "C2": {
+          "counts": 5,
+          "rate_cps": 0.08333333333333333,
+          "poisson_sigma_cps": 0.037267799624996496
+        },
+        "C1_residual_dark_coincidence_background_cps": 0.10065056179166668,
+        "C1_residual_dark_coincidence_background_sigma_cps": 0.06236532557870892,
+        "C2_residual_dark_coincidence_background_cps": -0.02914949797916666,
+        "C2_residual_dark_coincidence_background_sigma_cps": 0.037273942539457885
+      },
+      "rate_budget": {
+        "raw_singles_cps": {
+          "S1": 2195.7343434343434,
+          "S2": 1743.5434343434345,
+          "I": 13585.00808080808
+        },
+        "dark_subtracted_singles_cps": {
+          "S1": 1624.1676767676752,
+          "S2": 1258.9934343434343
+        },
+        "raw_coincidence_rates_cps": {
+          "C1": 66.2090909090909,
+          "C2": 51.153535353535354,
+          "total": 117.36262626262626
+        },
+        "corrected_coincidence_rates_cps": {
+          "C1": 65.36273524806691,
+          "C2": 50.590542901390776,
+          "total": 115.95327814945769
+        },
+        "accidental_rates_cps": {
+          "C1": 0.7457050992323232,
+          "C2": 0.5921419501237372,
+          "total": 1.3378470493560604
+        },
+        "accidental_fraction_of_raw_total": 0.011399259644738311
+      },
+      "diagnostics": {
+        "internal_raw_counts": {
+          "S1": 2173777,
+          "S2": 1726108,
+          "I": 13449158,
+          "C1": 65547,
+          "C2": 50642
+        },
+        "unclipped_aggregate_dark_subtracted_singles_cps": {
+          "S1": 1624.1676767676768,
+          "S2": 1258.9934343434345
+        },
+        "singles_zero_clipping": {
+          "S1_point_count": 0,
+          "S2_point_count": 0
+        }
+      },
+      "cross_check": {
+        "status": "passed",
+        "compared_values": 693,
+        "max_absolute_residual": 1.4210854715202004e-14,
+        "max_relative_residual": 2.741328561345268e-16
+      }
+    },
+    {
+      "run": "2",
+      "run_name": "preserve-erase",
+      "condition": "Preserve",
+      "detected_idler": true,
+      "directory": "data/raw/mzi/2026-03-05-14-20-45/launch",
+      "inputs": {
+        "dark": "data/raw/mzi/2026-03-05-14-20-45/launch/dark.json",
+        "points": "data/raw/mzi/2026-03-05-14-20-45/launch/points.jsonl",
+        "plan": "data/raw/mzi/2026-03-05-14-20-45/launch/plan.json"
+      },
+      "plan": {
+        "points_per_scan": 11,
+        "scan_count": 9,
+        "planned_voltage_min_V": 42.0,
+        "planned_voltage_max_V": 44.928571428571445
+      },
+      "point_count": 99,
+      "total_exposure_s": 990.0,
+      "dark_run_background_measurements": {
+        "exposure_s": 60.0,
+        "S1": {
+          "counts": 34633,
+          "rate_cps": 577.2166666666667,
+          "poisson_sigma_cps": 3.1016572631059316
+        },
+        "S2": {
+          "counts": 29558,
+          "rate_cps": 492.6333333333333,
+          "poisson_sigma_cps": 2.8654066998517953
+        },
+        "I": {
+          "counts": 1543977,
+          "rate_cps": 25732.95,
+          "poisson_sigma_cps": 20.709478506229946
+        },
+        "C1": {
+          "counts": 87,
+          "rate_cps": 1.45,
+          "poisson_sigma_cps": 0.15545631755148026
+        },
+        "C2": {
+          "counts": 56,
+          "rate_cps": 0.9333333333333333,
+          "poisson_sigma_cps": 0.12472191289246472
+        },
+        "C1_residual_dark_coincidence_background_cps": 1.0786628094375,
+        "C1_residual_dark_coincidence_background_sigma_cps": 0.1554694100985963,
+        "C2_residual_dark_coincidence_background_cps": 0.6164106099583334,
+        "C2_residual_dark_coincidence_background_sigma_cps": 0.12473579547825848
+      },
+      "rate_budget": {
+        "raw_singles_cps": {
+          "S1": 2197.5060606060606,
+          "S2": 1740.8,
+          "I": 40224.10707070707
+        },
+        "dark_subtracted_singles_cps": {
+          "S1": 1620.2893939393923,
+          "S2": 1248.1666666666667
+        },
+        "raw_coincidence_rates_cps": {
+          "C1": 197.3808080808081,
+          "C2": 154.6919191919192,
+          "total": 352.0727272727273
+        },
+        "corrected_coincidence_rates_cps": {
+          "C1": 194.09230630544886,
+          "C2": 152.32497294596592,
+          "total": 346.41727925141475
+        },
+        "accidental_rates_cps": {
+          "C1": 2.2098389659217172,
+          "C2": 1.750535635994949,
+          "total": 3.960374601916666
+        },
+        "accidental_fraction_of_raw_total": 0.011248740090137193
+      },
+      "diagnostics": {
+        "internal_raw_counts": {
+          "S1": 2175531,
+          "S2": 1723392,
+          "I": 39821866,
+          "C1": 195407,
+          "C2": 153145
+        },
+        "unclipped_aggregate_dark_subtracted_singles_cps": {
+          "S1": 1620.289393939394,
+          "S2": 1248.1666666666665
+        },
+        "singles_zero_clipping": {
+          "S1_point_count": 0,
+          "S2_point_count": 0
+        }
+      },
+      "cross_check": {
+        "status": "passed",
+        "compared_values": 693,
+        "max_absolute_residual": 2.842170943040401e-14,
+        "max_relative_residual": 2.0009259412752414e-16
+      }
+    }
+  ]
+}

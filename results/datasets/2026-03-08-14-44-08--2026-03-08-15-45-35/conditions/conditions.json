@@ -1,0 +1,488 @@
+{
+  "target": {
+    "utc": "2026-03-08T22:45:35+00:00",
+    "local": "2026-03-08T15:45:35-07:00",
+    "dirname": "2026-03-08-15-45-35"
+  },
+  "metar": {
+    "station": "KSBA",
+    "source": "saved",
+    "source_file": "data/raw/conditions/2026-03-08-15-45-35/metar/2026-03-15-17-38-18-SBA.json",
+    "source_pull_prefix": "2026-03-15-17-38-18",
+    "selected_report": {
+      "icaoId": "KSBA",
+      "receiptTime": "2026-03-08T22:58:11.604Z",
+      "obsTime": 1773010380,
+      "reportTime": "2026-03-08T23:00:00.000Z",
+      "temp": 25.6,
+      "dewp": 3.3,
+      "wdir": 270,
+      "wspd": 13,
+      "wgst": 19,
+      "visib": "10+",
+      "altim": 1010.2,
+      "slp": 1010,
+      "qcField": 12,
+      "metarType": "METAR",
+      "rawOb": "METAR KSBA 082253Z 27013G19KT 10SM CLR 26/03 A2983 RMK AO2 SLP100 T02560033 $",
+      "lat": 34.4241,
+      "lon": -119.8425,
+      "elev": 2,
+      "name": "Santa Barbara Muni, CA, US",
+      "cover": "CLR",
+      "clouds": [],
+      "fltCat": "VFR"
+    },
+    "pressure_hpa": 1010.2
+  },
+  "milky_way": {
+    "T": 0.9011287388792198,
+    "ra_deg": 27.823769101666947,
+    "dec_deg": 34.2867464214152
+  },
+  "irsa": {
+    "ra_deg": 27.823769101666947,
+    "dec_deg": 34.2867464214152,
+    "target_utc": "2026-03-08T22:45:35+00:00",
+    "filter_name": "DSS-II i",
+    "matched_wavelength_um": 0.8111,
+    "matched_index": 7,
+    "extinction_column": "A_SandF",
+    "extinction_mag": 0.072,
+    "transmission_fraction": 0.93583654358353,
+    "transmission_percent": 93.583654358353,
+    "table_file": "2026-07-27-14-35-38-IRSA_zenith.ecsv",
+    "csv_file": "2026-07-27-14-35-38-IRSA_zenith.csv",
+    "integration": {
+      "minutes": 49,
+      "cadence_minutes": 5,
+      "start_utc": "2026-03-08T22:45:35+00:00",
+      "end_utc": "2026-03-08T23:34:35+00:00",
+      "min_T": 0.8653663429563481,
+      "avg_T": 0.9011287388792198,
+      "max_T": 0.93583654358353,
+      "min_sample": {
+        "time_utc": "2026-03-08T23:15:35+00:00",
+        "ra_deg": 35.33242192991074,
+        "dec_deg": 34.29630368178097,
+        "T": 0.8653663429563481,
+        "filter_name": "DSS-II i",
+        "matched_wavelength_um": 0.8111,
+        "matched_index": 7,
+        "extinction_column": "A_SandF",
+        "extinction_mag": 0.157,
+        "transmission_fraction": 0.8653663429563481,
+        "transmission_percent": 86.53663429563481,
+        "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-006.ecsv"
+      },
+      "avg_sample": {
+        "time_utc": "2026-03-08T23:10:35+00:00",
+        "ra_deg": 34.080922798189526,
+        "dec_deg": 34.29455925562244,
+        "T": 0.8953647655495938,
+        "filter_name": "DSS-II i",
+        "matched_wavelength_um": 0.8111,
+        "matched_index": 7,
+        "extinction_column": "A_SandF",
+        "extinction_mag": 0.12,
+        "transmission_fraction": 0.8953647655495938,
+        "transmission_percent": 89.53647655495938,
+        "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-005.ecsv"
+      },
+      "max_sample": {
+        "time_utc": "2026-03-08T22:45:35+00:00",
+        "ra_deg": 27.823769101666947,
+        "dec_deg": 34.2867464214152,
+        "T": 0.93583654358353,
+        "filter_name": "DSS-II i",
+        "matched_wavelength_um": 0.8111,
+        "matched_index": 7,
+        "extinction_column": "A_SandF",
+        "extinction_mag": 0.072,
+        "transmission_fraction": 0.93583654358353,
+        "transmission_percent": 93.583654358353,
+        "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-000.ecsv",
+        "csv_file": "2026-07-27-14-35-38-IRSA_zenith.csv"
+      },
+      "samples": [
+        {
+          "time_utc": "2026-03-08T22:45:35+00:00",
+          "ra_deg": 27.823769101666947,
+          "dec_deg": 34.2867464214152,
+          "T": 0.93583654358353,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.072,
+          "transmission_fraction": 0.93583654358353,
+          "transmission_percent": 93.583654358353,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-000.ecsv",
+          "csv_file": "2026-07-27-14-35-38-IRSA_zenith.csv"
+        },
+        {
+          "time_utc": "2026-03-08T22:50:35+00:00",
+          "ra_deg": 29.075157384428202,
+          "dec_deg": 34.28818521771737,
+          "T": 0.9136923736814543,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.098,
+          "transmission_fraction": 0.9136923736814543,
+          "transmission_percent": 91.36923736814543,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-001.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T22:55:35+00:00",
+          "ra_deg": 30.3265659438475,
+          "dec_deg": 34.289686629368866,
+          "T": 0.8928941960649825,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.123,
+          "transmission_fraction": 0.8928941960649825,
+          "transmission_percent": 89.28941960649826,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-002.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:00:35+00:00",
+          "ra_deg": 31.577995736454604,
+          "dec_deg": 34.29124994100535,
+          "T": 0.8855233145028547,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.132,
+          "transmission_fraction": 0.8855233145028547,
+          "transmission_percent": 88.55233145028546,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-003.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:05:35+00:00",
+          "ra_deg": 32.82944770903412,
+          "dec_deg": 34.29287440776205,
+          "T": 0.8782132798980062,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.141,
+          "transmission_fraction": 0.8782132798980062,
+          "transmission_percent": 87.82132798980062,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-004.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:10:35+00:00",
+          "ra_deg": 34.080922798189526,
+          "dec_deg": 34.29455925562244,
+          "T": 0.8953647655495938,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.12,
+          "transmission_fraction": 0.8953647655495938,
+          "transmission_percent": 89.53647655495938,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-005.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:15:35+00:00",
+          "ra_deg": 35.33242192991074,
+          "dec_deg": 34.29630368178097,
+          "T": 0.8653663429563481,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.157,
+          "transmission_fraction": 0.8653663429563481,
+          "transmission_percent": 86.53663429563481,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-006.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:20:35+00:00",
+          "ra_deg": 36.58394601913304,
+          "dec_deg": 34.2981068550194,
+          "T": 0.9120108393559098,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.1,
+          "transmission_fraction": 0.9120108393559098,
+          "transmission_percent": 91.20108393559097,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-007.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:25:35+00:00",
+          "ra_deg": 37.83549596930532,
+          "dec_deg": 34.299967916096854,
+          "T": 0.9120108393559098,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.1,
+          "transmission_fraction": 0.9120108393559098,
+          "transmission_percent": 91.20108393559097,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-008.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:30:35+00:00",
+          "ra_deg": 39.087072671988615,
+          "dec_deg": 34.30188597815307,
+          "T": 0.9111712330429192,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.101,
+          "transmission_fraction": 0.9111712330429192,
+          "transmission_percent": 91.11712330429192,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-009.ecsv"
+        },
+        {
+          "time_utc": "2026-03-08T23:34:35+00:00",
+          "ra_deg": 40.08835388720339,
+          "dec_deg": 34.30346085515538,
+          "T": 0.9103323996799096,
+          "filter_name": "DSS-II i",
+          "matched_wavelength_um": 0.8111,
+          "matched_index": 7,
+          "extinction_column": "A_SandF",
+          "extinction_mag": 0.102,
+          "transmission_fraction": 0.9103323996799096,
+          "transmission_percent": 91.03323996799097,
+          "table_file": "2026-07-27-14-35-38-IRSA_zenith-sample-010.ecsv"
+        }
+      ]
+    },
+    "source": "saved",
+    "source_file": "data/raw/conditions/2026-03-08-15-45-35/irsa/2026-07-27-14-35-38-IRSA_zenith.json",
+    "source_pull_prefix": "2026-07-27-14-35-38"
+  },
+  "aeronet": {
+    "variant": "solar",
+    "source": "saved",
+    "source_file": "data/raw/conditions/2026-03-08-15-45-35/aeronet/2026-03-15-17-38-18-AERONET_UCSB.csv",
+    "source_pull_prefix": "2026-03-15-17-38-18",
+    "record_utc": "2026-03-08T22:46:23+00:00",
+    "data_level": "lev10",
+    "tau675": 0.051208,
+    "tau870": 0.044407,
+    "angstrom_alpha": 0.5615035178221925,
+    "angstrom_source": "derived from AOD 675/870 nm",
+    "pwv_cm": 0.850689,
+    "pwv_mm": 8.50689
+  },
+  "goes": {
+    "source": "saved",
+    "source_pull_prefix": "2026-03-15-17-38-18",
+    "satellite": "GOES-18",
+    "lat": 34.41711,
+    "lon": -119.84459,
+    "spatial_selection": {
+      "method": "footprint-circle",
+      "radius_m": 5000.0
+    },
+    "target_utc": "2026-03-08T22:45:35+00:00",
+    "aod": {
+      "product": "ABI-L2-AODC",
+      "file": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-AODC-M6_G18_s20260672246180_e20260672248553_c20260672251354.nc",
+      "start_utc": "2026-03-08T22:46:18+00:00",
+      "var": "AOD",
+      "raw_value": 0.0400831438601017,
+      "value": 0.0400831438601017,
+      "qf": {
+        "DQF": 1
+      },
+      "dqf": 1,
+      "dqf_values": [
+        1,
+        2
+      ],
+      "qf_primary": "DQF",
+      "accepted_quality_values": [
+        0,
+        1
+      ],
+      "usable": true,
+      "qf_reason": "accepted",
+      "screening_rule": "quality-values",
+      "screening_context": {},
+      "reduction": "pessimistic-extreme",
+      "pixel_count": 24,
+      "usable_pixel_count": 3,
+      "quality_counts": {
+        "2": 21,
+        "1": 3
+      },
+      "selected_pixel": {
+        "iy": 573,
+        "ix": 1992
+      },
+      "alpha": -0.19138985872268677,
+      "alpha_source": "AE1",
+      "alpha_raw_value": -0.19138985872268677,
+      "alpha_qf": {
+        "AE_DQF": 2
+      },
+      "alpha_dqf": 2,
+      "alpha_qf_primary": "AE_DQF",
+      "alpha_accepted_quality_values": [
+        0,
+        1
+      ],
+      "alpha_screening_rule": "ae-low-aod-exception",
+      "alpha_screening_context": {
+        "AOD": 0.0400831438601017,
+        "AOD_DQF": 1,
+        "AE2": 0.05643653869628906
+      },
+      "alpha_usable": true,
+      "alpha_reason": "accepted AE_DQF=2 low-AOD exception (AOD=0.0400831438601017, AOD.DQF=1, AE2=0.05643653869628906)",
+      "alpha_reduction": "pessimistic-extreme",
+      "alpha_pixel_count": 24,
+      "alpha_usable_pixel_count": 3,
+      "alpha_quality_counts": {
+        "3": 11,
+        "2": 13
+      },
+      "alpha_selected_pixel": {
+        "iy": 573,
+        "ix": 1992
+      }
+    },
+    "cod": {
+      "product": "ABI-L2-CODC",
+      "file": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-CODC-M6_G18_s20260672246180_e20260672248553_c20260672251231.nc",
+      "start_utc": "2026-03-08T22:46:18+00:00",
+      "var": "COD",
+      "raw_value": null,
+      "value": null,
+      "qf": {},
+      "dqf": null,
+      "dqf_values": [
+        134
+      ],
+      "qf_primary": "DQF",
+      "accepted_quality_values": [],
+      "usable": false,
+      "qf_reason": "no positive COD retrieval among 24 overlapping footprints; all values are 0.0 or missing/fill",
+      "screening_rule": "cod-positive-veto",
+      "screening_context": {},
+      "reduction": "pessimistic-extreme",
+      "pixel_count": 24,
+      "usable_pixel_count": 0,
+      "quality_counts": {
+        "134": 24
+      },
+      "selected_pixel": null
+    },
+    "tpw": {
+      "product": "ABI-L2-TPWC",
+      "file": "data/raw/conditions/2026-03-08-15-45-35/goes/2026-03-15-17-38-18-OR_ABI-L2-TPWC-M6_G18_s20260672246180_e20260672248553_c20260672250519.nc",
+      "start_utc": "2026-03-08T22:46:18+00:00",
+      "var": "TPW",
+      "raw_value": 8.058911323547363,
+      "value": 8.058911323547363,
+      "qf": {
+        "DQF_Overall": 0,
+        "DQF_Retrieval": 0,
+        "DQF_SkinTemp": 0
+      },
+      "dqf": 0,
+      "dqf_values": [
+        0
+      ],
+      "qf_primary": "DQF_Overall",
+      "accepted_quality_values": [
+        0
+      ],
+      "usable": true,
+      "qf_reason": "accepted",
+      "screening_rule": "tpw-all-quality-good",
+      "screening_context": {},
+      "reduction": "pessimistic-extreme",
+      "pixel_count": 3,
+      "usable_pixel_count": 1,
+      "quality_counts": {
+        "0": 3
+      },
+      "selected_pixel": {
+        "iy": 113,
+        "ix": 398
+      }
+    },
+    "pressure_hpa": 1010.2
+  },
+  "libradtran": [
+    {
+      "tag": "GOES-18",
+      "inputs": {
+        "angstrom_alpha": -0.19138985872268677,
+        "pressure_hpa": 1010.2,
+        "aod_ref": 0.0400831438601017,
+        "aod_ref_wavelength_um": 0.55,
+        "tpw_mm": 8.058911323547363,
+        "metar_sky": "CLR",
+        "cod_status": "invalid",
+        "metar_temp_c": 25.6,
+        "metar_rh_pct": 23.581378912146143,
+        "source_label": "GOES-18"
+      },
+      "result": {
+        "t_band": 0.9151434,
+        "t_810": 0.930074,
+        "lambda_min_nm": 782.0,
+        "lambda_max_nm": 867.0,
+        "lambda_ref_nm": 810.0,
+        "beta_angstrom": 0.04494213765251212,
+        "used_clear_sky": true,
+        "notes": [
+          "METAR sky condition = CLR; METAR reports clear sky.",
+          "No cloud optical depth was supplied; none was applied.",
+          "Running libRadtran in clear-sky mode (no cloud optical depth).",
+          "Surface temperature 25.6 C (298.75 K) applied via sur_temperature.",
+          "Surface RH 23.6% available but not used directly."
+        ]
+      }
+    },
+    {
+      "tag": "AERONET-solar",
+      "inputs": {
+        "angstrom_alpha": 0.5615035178221925,
+        "pressure_hpa": 1010.2,
+        "aod_ref": 0.044407,
+        "aod_ref_wavelength_um": 0.87,
+        "tpw_mm": 8.50689,
+        "metar_sky": "CLR",
+        "cod_status": "invalid",
+        "metar_temp_c": 25.6,
+        "metar_rh_pct": 23.581378912146143,
+        "source_label": "AERONET solar"
+      },
+      "result": {
+        "t_band": 0.9118246,
+        "t_810": 0.9268489,
+        "lambda_min_nm": 782.0,
+        "lambda_max_nm": 867.0,
+        "lambda_ref_nm": 810.0,
+        "beta_angstrom": 0.04106683962056686,
+        "used_clear_sky": true,
+        "notes": [
+          "METAR sky condition = CLR; METAR reports clear sky.",
+          "No cloud optical depth was supplied; none was applied.",
+          "Running libRadtran in clear-sky mode (no cloud optical depth).",
+          "Surface temperature 25.6 C (298.75 K) applied via sur_temperature.",
+          "Surface RH 23.6% available but not used directly."
+        ]
+      }
+    }
+  ]
+}

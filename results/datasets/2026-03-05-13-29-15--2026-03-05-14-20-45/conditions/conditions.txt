@@ -1,0 +1,129 @@
+Target time (UTC): 2026-03-05 21:29:15 UTC
+Target time (PT): 2026-03-05 13:29:15 PST
+
+Station: KSBA (Santa Barbara Muni, CA, US)
+Report time (UTC): 2026-03-05T21:00:00.000Z
+Report time (PT): 2026-03-05 13:00:00 PST
+Delta from target: -0.49 hours
+Cloud cover: CLR
+Clouds: none
+Visibility: 10+ sm
+Temperature: 20.6 °C (69.1 °F)
+Dew point: 8.3 °C (46.9 °F)
+Temp/dew spread: 12.3 °C
+Wind: 240° at 9 kt
+Altimeter: 1015.0 hPa (29.97 inHg)
+Flight category: VFR
+Raw METAR: METAR KSBA 052053Z 24009KT 10SM CLR 21/08 A2997 RMK AO2 SLP149 T02060083 58019 $
+
+AERONET site: UCSB
+Data quality level: Level 1.0 (lev10; unscreened; final calibration may not be applied)
+Record time: 2026-03-05 21:31:57 UTC
+Record time (PT): 2026-03-05 13:31:57 PST
+Delta from target: +0.04 hours
+AOD: 675nm=0.032, 870nm=0.030
+Angstrom exponent 440–870: 0.728
+PWV: 7.43 mm
+Angstrom parameterization: derived from AOD 675/870 nm; alpha=0.254
+
+IRSA Galactic Dust (foreground, integrated through the Galaxy) at zenith (ICRS)
+Sky coord: RA=5.769375°, Dec=34.272099° (ICRS)
+Matched band: DSS-II i, LamEff≈0.8111 µm
+Extinction column: A_SandF
+A_lambda (mag): 0.082
+Transmission: T=0.9273 (92.7%)
+Integrated window: 49 minutes, sampled every 5 minutes
+Window start (UTC): 2026-03-05 21:29:15 UTC
+Window end (UTC): 2026-03-05 22:18:15 UTC
+Samples: 11
+Transmission summary:
+  Min T: 0.8449 at 2026-03-05 21:54:15 UTC, RA=12.025353°, Dec=34.274056°
+  Avg T: 0.9013; closest sample at 2026-03-05 21:34:15 UTC, RA=7.020564°, Dec=34.272350° (sample T=0.9045)
+  Max T: 0.9436 at 2026-03-05 22:09:15 UTC, RA=15.779010°, Dec=34.276064°
+
+GOES ABI (GOES-18) over Henley Hall
+AOD product: ABI-L2-AODC (var=AOD)
+AOD file start (UTC): 2026-03-05 21:31:17.5 UTC
+AOD file start (PT): 2026-03-05 13:31:17.5 PST
+AOD delta from target: +0.03 hours
+AOD spatial pixels: 24 overlapping, 3 usable
+AOD_550: 0.04994681850075722 (DQF=1)
+AOD selected pixel: iy=573, ix=1992
+Angstrom exponent used: -0.174 (source: AE1) [AE_DQF=2] (accepted AE_DQF=2 low-AOD exception (AOD=0.04563146457076073, AOD.DQF=1, AE2=-0.1193004846572876))
+Angstrom selected pixel: iy=573, ix=1993
+COD product: ABI-L2-CODC (var=COD)
+COD file start (UTC): 2026-03-05 21:31:17.5 UTC
+COD file start (PT): 2026-03-05 13:31:17.5 PST
+COD delta from target: +0.03 hours
+COD spatial pixels: 24 overlapping, 0 positive
+COD: None
+COD screening: no positive COD retrieval among 24 overlapping footprints; all values are 0.0 or missing/fill
+TPW product: ABI-L2-TPWC (var=TPW)
+TPW file start (UTC): 2026-03-05 21:31:17.5 UTC
+TPW file start (PT): 2026-03-05 13:31:17.5 PST
+TPW delta from target: +0.03 hours
+TPW spatial pixels: 3 overlapping, 1 usable
+TPW (mm): 5.148791313171387 (DQF_Overall=0, DQF_Retrieval=0, DQF_SkinTemp=0)
+TPW selected pixel: iy=113, ix=398
+
+Atmospheric transmission estimate from libRadtran [GOES-18]
+-----------------------------------------------------------
+uvspec executable : /opt/libRadtran-2.0.6/bin/uvspec
+data path         : /opt/libRadtran-2.0.6/data
+
+Inputs
+  Source          : GOES-18
+  Pressure        : 1015.000 hPa
+  AOD (550nm)     : 0.04995
+  Ref wavelength  : 550 nm (0.5500 µm)
+  Angstrom alpha  : -0.17387
+  Angstrom beta   : 0.05541805
+  TPW             : 5.149 mm
+  METAR sky       : CLR
+  COD status      : invalid
+
+Band
+  Filter          : rectangular 782.0-867.0 nm
+  Reference       : 810.0 nm
+
+Results
+  T_band          : 0.912631
+  T_810            : 0.922970
+
+Notes
+  - METAR sky condition = CLR; METAR reports clear sky.
+  - No cloud optical depth was supplied; none was applied.
+  - Running libRadtran in clear-sky mode (no cloud optical depth).
+  - Surface temperature 20.6 C (293.75 K) applied via sur_temperature.
+  - Surface RH 45.1% available but not used directly.
+
+Atmospheric transmission estimate from libRadtran [AERONET solar]
+-----------------------------------------------------------------
+uvspec executable : /opt/libRadtran-2.0.6/bin/uvspec
+data path         : /opt/libRadtran-2.0.6/data
+
+Inputs
+  Source          : AERONET solar
+  Pressure        : 1015.000 hPa
+  AOD (870nm)     : 0.02985
+  Ref wavelength  : 870 nm (0.8700 µm)
+  Angstrom alpha  : 0.25380
+  Angstrom beta   : 0.02881533
+  TPW             : 7.427 mm
+  METAR sky       : CLR
+  COD status      : invalid
+
+Band
+  Filter          : rectangular 782.0-867.0 nm
+  Reference       : 810.0 nm
+
+Results
+  T_band          : 0.928485
+  T_810            : 0.942481
+
+Notes
+  - METAR sky condition = CLR; METAR reports clear sky.
+  - No cloud optical depth was supplied; none was applied.
+  - Running libRadtran in clear-sky mode (no cloud optical depth).
+  - Surface temperature 20.6 C (293.75 K) applied via sur_temperature.
+  - Surface RH 45.1% available but not used directly.

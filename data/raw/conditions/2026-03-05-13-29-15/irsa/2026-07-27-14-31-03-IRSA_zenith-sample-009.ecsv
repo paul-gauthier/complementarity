@@ -1,0 +1,42 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: Filter_name, datatype: string}
+# - {name: LamEff, unit: micron, datatype: float64}
+# - {name: A_over_E_B_V_SandF, datatype: float64}
+# - {name: A_SandF, unit: mag, datatype: float64}
+# - {name: A_over_E_B_V_SFD, datatype: float64}
+# - {name: A_SFD, unit: mag, datatype: float64}
+# meta: !!omap
+# - comments: [Filter_name, ___ Name of filter, LamEff, ___ Effective wavelength of filter (in microns) as defined in SandF, A_over_E_B_V_SandF,
+#     ___ Ratio of SandF band extinction to SandF E(B-V), A_SandF, ___ Band extinction (mags) for SandF, A_over_E_B_V_SFD, ___ Ratio of
+#       SFD band extinction to SandF E(B-V), A_SFD, ___ Band extinction (mags) for SFD]
+# - keywords:
+#     Coordinates: {value: 17.030257360891106 34.27687132301717 (   17.030260000    34.276870000 equ J2000)}
+# schema: astropy-2.0
+Filter_name LamEff A_over_E_B_V_SandF A_SandF A_over_E_B_V_SFD A_SFD
+"CTIO U" 0.3734 4.107 0.214 4.968 0.258
+"CTIO B" 0.4309 3.641 0.189 4.325 0.225
+"CTIO V" 0.5517 2.682 0.139 3.24 0.169
+"CTIO R" 0.652 2.119 0.11 2.634 0.137
+"CTIO I" 0.8007 1.516 0.079 1.962 0.102
+"DSS-II g" 0.4621 3.381 0.176 3.907 0.203
+"DSS-II r" 0.6546 2.088 0.109 2.649 0.138
+"DSS-II i" 0.8111 1.487 0.077 1.893 0.098
+"SDSS u" 0.3587 4.239 0.22 5.155 0.268
+"SDSS g" 0.4717 3.303 0.172 3.793 0.197
+"SDSS r" 0.6165 2.285 0.119 2.751 0.143
+"SDSS i" 0.7476 1.698 0.088 2.086 0.108
+"SDSS z" 0.8923 1.263 0.066 1.479 0.077
+"UKIRT J" 1.248 0.709 0.037 0.902 0.047
+"UKIRT H" 1.659 0.449 0.023 0.576 0.03
+"UKIRT K" 2.19 0.302 0.016 0.367 0.019
+"2MASS J" 1.23 0.723 0.038 0.937 0.049
+"2MASS H" 1.64 0.46 0.024 0.591 0.031
+"2MASS Ks" 2.16 0.31 0.016 0.382 0.02
+IRAC-1 3.52 0.178 0.009 0.22 0.011
+IRAC-2 4.46 0.148 0.008 0.183 0.01
+IRAC-3 5.66 0.13 0.007 0.162 0.008
+IRAC-4 7.68 0.122 0.006 0.151 0.008
+WISE-1 3.32 0.189 0.01 0.234 0.012
+WISE-2 4.57 0.146 0.008 0.18 0.009
